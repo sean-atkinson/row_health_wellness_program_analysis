@@ -1,0 +1,58 @@
+campaign_id,campaign_category,campaign_type,cost,platform,impressions,clicks,days_run
+CAM033,Health For All,Product Promotion,846.0529867,TV,32272,0,27
+CAM051,Health For All,Policy Information,1253.532835,TV,20437,0,11
+CAM057,Health For All,Health Awareness,1062.209448,TV,29630,0,17
+CAM032,Family Coverage Plan,Product Promotion,801.4569166,TV,452680,,27
+CAM036,Golden Years Security,Covid Awareness,301.4678661,TV,25492,0,13
+CAM041,Golden Years Security,Covid Awareness,571.7194632,TV,35448,0,11
+CAM053,Golden Years Security,Product Promotion,338.275359,TV,13480,0,12
+CAM010,Affordable Plans,Covid Awareness,820.5803765,SEO,221170,12460,27
+CAM028,Affordable Plans,Policy Information,300.1260024,SEO,84850,27785,27
+CAM045,Affordable Plans,Covid Awareness,448.4411105,SEO,21487,1348.5,18
+CAM021,Family Coverage Plan,Customer Testimonial,1606.227668,SEO,449340,,23
+CAM005,Golden Years Security,Offer Announcement,1519.167326,SEO,148170,2345,44
+CAM011,Golden Years Security,Offer Announcement,1334.056787,SEO,200340,3634,25
+CAM001,Tailored Health Plans,Covid Awareness,1335.566784,SEO,291270,20510,45
+CAM009,Tailored Health Plans,Health Awareness,394.6410831,SEO,480790,34210,38
+CAM017,Tailored Health Plans,Offer Announcement,1089.283035,SEO,451840,23370,25
+CAM029,Tailored Health Plans,Health Tips,401.0490881,SEO,136160,12425,20
+CAM039,Tailored Health Plans,Covid Awareness,1954.64548,SEO,38799,2055,15
+CAM004,Compare Health Coverage,Customer Testimonial,1354.937186,SEO,100690,42440,36
+CAM006,Compare Health Coverage,Product Promotion,1254.28613,SEO,100630,22080,44
+CAM016,Compare Health Coverage,Covid Awareness,1367.173425,SEO,295250,15760,18
+CAM034,Compare Health Coverage,Policy Information,1612.28577,SEO,49659,4296,19
+CAM035,Compare Health Coverage,Customer Testimonial,1428.202582,SEO,39736,1720,19
+CAM037,Compare Health Coverage,Health Tips,754.2789024,SEO,15970,1749,13
+CAM044,Compare Health Coverage,Covid Awareness,871.8756279,SEO,46515,2141,11
+CAM050,Compare Health Coverage,Product Promotion,1400.168346,SEO,16260,3163.5,15
+CAM018,Health For All,Health Awareness,1185.171031,Email,88220,43453,20
+CAM024,Benefit Updates,Product Promotion,710.7200448,Email,88390,6360,23
+CAM027,Benefit Updates,Policy Information,1440.586227,Email,155890,47785,20
+CAM002,Preventive Care News,Customer Testimonial,1624.442464,Email,428100,47330,48
+CAM003,Preventive Care News,Policy Information,1944.226008,Email,260280,36990,40
+CAM008,Preventive Care News,Policy Information,223.0855994,Email,336700,42175,35
+CAM046,Preventive Care News,Covid Awareness,1338.129684,Email,39003,3564.5,20
+CAM048,Preventive Care News,Product Promotion,767.8147069,Email,10255,4287,10
+CAM056,Preventive Care News,Health Tips,359.1116943,Email,42630,2316.5,16
+CAM014,Summer Wellness Tips,Policy Information,125.0467452,Email,290300,44040,29
+CAM015,Summer Wellness Tips,Health Awareness,1555.577561,Email,215420,41970,24
+CAM038,Summer Wellness Tips,Policy Information,1380.28103,Email,24985,4094,15
+CAM040,Summer Wellness Tips,Covid Awareness,1833.281138,Email,19761,4962.5,18
+CAM052,Summer Wellness Tips,Product Promotion,1868.570846,Email,15644,4065,11
+CAM055,Summer Wellness Tips,Health Awareness,322.9228083,Email,6900,4536,12
+CAM007,#HealthyLiving,Policy Information,1173.585931,Social Media,482520,45155,30
+CAM020,#HealthyLiving,Health Tips,1822.723467,Social Media,441280,30515,29
+CAM023,#HealthyLiving,Offer Announcement,303.769053,Social Media,281960,38420,10
+CAM030,#HealthyLiving,Policy Information,1362.207577,Social Media,110700,13040,23
+CAM047,#HealthyLiving,Health Tips,404.6667763,Social Media,49541,2342,10
+CAM049,#HealthyLiving,Offer Announcement,1609.678559,Social Media,6447,2595.5,12
+CAM012,#CoverageMatters,Product Promotion,244.0089956,Social Media,72280,6010,27
+CAM026,#CoverageMatters,Covid Awareness,1260.901406,Social Media,265110,38585,25
+CAM031,#CoverageMatters,Product Promotion,806.421044,Social Media,374710,29645,25
+CAM013,#InsureYourHealth,Customer Testimonial,1134.316809,Social Media,289290,18240,23
+CAM019,#InsureYourHealth,Covid Awareness,1872.24267,Social Media,215500,24470,28
+CAM022,#InsureYourHealth,Product Promotion,738.8300669,Social Media,380140,26000,19
+CAM042,#InsureYourHealth,Offer Announcement,225.4626635,Social Media,45711,1339.5,11
+CAM043,#InsureYourHealth,Product Promotion,1189.200451,Social Media,6083,3440,17
+CAM054,#InsureYourHealth,Health Tips,1412.829225,Social Media,33520,1050.5,19
+CAM025,Family Coverage Plan,Customer Testimonial,1528.728281,Social Media,204520,,25
