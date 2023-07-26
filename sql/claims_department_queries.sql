@@ -209,7 +209,7 @@ purchase_rank as (
     claims.claim_id, 
     claims.claim_date,
     claims.product_name,
-    rank() over (partition by claims.customer_id order by claim_date) as order_rank
+    row_number() over (partition by claims.customer_id order by claim_date) as order_rank
   FROM `psychic-raceway-393323.rowhealth.claims` claims
   join more_than_one_order
     on claims.customer_id = more_than_one_order.customer_id
