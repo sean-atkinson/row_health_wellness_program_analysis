@@ -2,8 +2,7 @@
 WITH signup_count AS (
   SELECT customers.campaign_id, 
     COUNT(DISTINCT customers.customer_id) AS num_signups
-  FROM 
-    `psychic-raceway-393323.rowhealth.customers` customers 
+  FROM `psychic-raceway-393323.rowhealth.customers` customers 
   GROUP BY 1
 )
 -- main query to join campaigns with signup count and calculate additional metrics
@@ -40,6 +39,6 @@ SELECT campaigns.campaign_id,
     ELSE (campaigns.cost / campaigns.clicks)
   END AS cost_per_clicK
 FROM `psychic-raceway-393323.rowhealth.campaigns` campaigns 
-  LEFT JOIN signup_count
-    ON campaigns.campaign_id = signup_count.campaign_id
+LEFT JOIN signup_count
+  ON campaigns.campaign_id = signup_count.campaign_id
 ORDER BY 1
