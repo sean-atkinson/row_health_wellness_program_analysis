@@ -1,0 +1,58 @@
+campaign_id,campaign_category,campaign_type,platform,campaign_detail,days_run,cost,impressions,clicks,num_signups,signup_rate,cost_per_signup,click_through_rate,cost_per_clicK
+CAM001,Tailored Health Plans,Covid Awareness,SEO,Tailored Health Plans - Covid Awareness - SEO,45,1335.566784,291270,20510.0,965,0.0033130772135818998,1.3840070300518135,0.070415765440999756,0.065117834422233067
+CAM002,Preventive Care News,Customer Testimonial,Email,Preventive Care News - Customer Testimonial - Email,48,1624.442464,428100,47330.0,586,0.0013688390562952581,2.7720861160409558,0.11055828077551974,0.034321624001690261
+CAM003,Preventive Care News,Policy Information,Email,Preventive Care News - Policy Information - Email,40,1944.226008,260280,36990.0,46,0.00017673274934685722,42.265782782608696,0.1421161825726141,0.052560854501216545
+CAM004,Compare Health Coverage,Customer Testimonial,SEO,Compare Health Coverage - Customer Testimonial - SEO,36,1354.937186,100690,42440.0,1546,0.015354057006654086,0.87641473868046582,0.42149170722018076,0.031925946889726678
+CAM005,Golden Years Security,Offer Announcement,SEO,Golden Years Security - Offer Announcement - SEO,44,1519.167326,148170,2345.0,1,6.74900452183303e-06,1519.167326,0.015826415603698456,0.64783254840085291
+CAM006,Compare Health Coverage,Product Promotion,SEO,Compare Health Coverage - Product Promotion - SEO,44,1254.28613,100630,22080.0,1273,0.012650303090529664,0.98529939512961506,0.2194176686872702,0.056806437047101449
+CAM007,#HealthyLiving,Policy Information,Social Media,#HealthyLiving - Policy Information - Social Media,30,1173.585931,482520,45155.0,2,4.1449059106358282e-06,586.7929655,0.093581613197380425,0.02599016567379028
+CAM008,Preventive Care News,Policy Information,Email,Preventive Care News - Policy Information - Email,35,223.0855994,336700,42175.0,11,3.2670032670032672e-05,20.280509036363636,0.12525987525987525,0.0052895222145820982
+CAM009,Tailored Health Plans,Health Awareness,SEO,Tailored Health Plans - Health Awareness - SEO,38,394.6410831,480790,34210.0,114,0.00023710975685850371,3.4617638868421055,0.071153726159029929,0.011535839903536977
+CAM010,Affordable Plans,Covid Awareness,SEO,Affordable Plans - Covid Awareness - SEO,27,820.5803765,221170,12460.0,51,0.00023059185242121444,16.089811303921568,0.056336754532712391,0.065857173073836275
+CAM011,Golden Years Security,Offer Announcement,SEO,Golden Years Security - Offer Announcement - SEO,25,1334.056787,200340,3634.0,22,0.00010981331736048717,60.638944863636361,0.018139163422182289,0.36710423417721516
+CAM012,#CoverageMatters,Product Promotion,Social Media,#CoverageMatters - Product Promotion - Social Media,27,244.0089956,72280,6010.0,1,1.383508577753182e-05,244.0089956,0.083148865522966242,0.040600498435940095
+CAM013,#InsureYourHealth,Customer Testimonial,Social Media,#InsureYourHealth - Customer Testimonial - Social Media,23,1134.316809,289290,18240.0,24,8.2961733900238521e-05,47.263200375,0.063050917764181272,0.062188421546052627
+CAM014,Summer Wellness Tips,Policy Information,Email,Summer Wellness Tips - Policy Information - Email,29,125.0467452,290300,44040.0,161,0.00055459869100930067,0.77668785838509324,0.1517051326214261,0.0028393902179836513
+CAM015,Summer Wellness Tips,Health Awareness,Email,Summer Wellness Tips - Health Awareness - Email,24,1555.577561,215420,41970.0,2,9.28418902608857e-06,777.7887805,0.19482870671246866,0.037064035287109845
+CAM016,Compare Health Coverage,Covid Awareness,SEO,Compare Health Coverage - Covid Awareness - SEO,18,1367.173425,295250,15760.0,1,3.3869602032176122e-06,1367.173425,0.053378492802709565,0.086749582804568529
+CAM017,Tailored Health Plans,Offer Announcement,SEO,Tailored Health Plans - Offer Announcement - SEO,25,1089.283035,451840,23370.0,27,5.9755665722379607e-05,40.34381611111111,0.051721848441926344,0.04661031386392811
+CAM018,Health For All,Health Awareness,Email,Health For All - Health Awareness - Email,20,1185.171031,88220,43453.0,3279,0.037168442530038537,0.36144282738639832,0.49255270913625027,0.027274780360389387
+CAM019,#InsureYourHealth,Covid Awareness,Social Media,#InsureYourHealth - Covid Awareness - Social Media,28,1872.24267,215500,24470.0,46,0.00021345707656612528,40.700927608695658,0.11354988399071926,0.076511756027789132
+CAM020,#HealthyLiving,Health Tips,Social Media,#HealthyLiving - Health Tips - Social Media,29,1822.723467,441280,30515.0,971,0.0022004169688179839,1.877161140061792,0.069151105873821617,0.059732048730132721
+CAM021,Family Coverage Plan,Customer Testimonial,SEO,Family Coverage Plan - Customer Testimonial - SEO,23,1606.227668,449340,,42,9.347042328748831e-05,38.243515904761907,,
+CAM022,#InsureYourHealth,Product Promotion,Social Media,#InsureYourHealth - Product Promotion - Social Media,19,738.8300669,380140,26000.0,246,0.00064713000473509761,3.0033742556910572,0.06839585415899406,0.028416541034615387
+CAM023,#HealthyLiving,Offer Announcement,Social Media,#HealthyLiving - Offer Announcement - Social Media,10,303.769053,281960,38420.0,11,3.90126259043836e-05,27.615368454545454,0.13626046247694709,0.0079065344351900053
+CAM024,Benefit Updates,Product Promotion,Email,Benefit Updates - Product Promotion - Email,23,710.7200448,88390,6360.0,33,0.0003733454010634687,21.536971054545454,0.071953840932232158,0.11174843471698113
+CAM025,Family Coverage Plan,Customer Testimonial,Social Media,Family Coverage Plan - Customer Testimonial - Social Media,25,1528.728281,204520,,31,0.00015157441814981419,49.313815516129033,,
+CAM026,#CoverageMatters,Covid Awareness,Social Media,#CoverageMatters - Covid Awareness - Social Media,25,1260.901406,265110,38585.0,1,3.7720191618573422e-06,1260.901406,0.14554335936026555,0.032678538447583255
+CAM027,Benefit Updates,Policy Information,Email,Benefit Updates - Policy Information - Email,20,1440.586227,155890,47785.0,12,7.6977355827827318e-05,120.04885225,0.30653024568606069,0.030147247609082349
+CAM028,Affordable Plans,Policy Information,SEO,Affordable Plans - Policy Information - SEO,27,300.1260024,84850,27785.0,12,0.00014142604596346494,25.0105002,0.3274602239245728,0.010801727637214325
+CAM029,Tailored Health Plans,Health Tips,SEO,Tailored Health Plans - Health Tips - SEO,20,401.0490881,136160,12425.0,1,7.3443008225616921e-06,401.0490881,0.091252937720329025,0.03227759260362173
+CAM030,#HealthyLiving,Policy Information,Social Media,#HealthyLiving - Policy Information - Social Media,23,1362.207577,110700,13040.0,2743,0.024778681120144534,0.49661231388990151,0.11779584462511292,0.10446377124233128
+CAM031,#CoverageMatters,Product Promotion,Social Media,#CoverageMatters - Product Promotion - Social Media,25,806.421044,374710,29645.0,3534,0.0094312935336660353,0.22818931635540465,0.079114515225107415,0.02720259888682746
+CAM032,Family Coverage Plan,Product Promotion,TV,Family Coverage Plan - Product Promotion - TV,27,801.4569166,452680,,228,0.0005036670495714412,3.5151619149122806,,
+CAM033,Health For All,Product Promotion,TV,Health For All - Product Promotion - TV,27,846.0529867,32272,0.0,266,0.0082424392662369863,3.1806503259398498,0.0,
+CAM034,Compare Health Coverage,Policy Information,SEO,Compare Health Coverage - Policy Information - SEO,19,1612.28577,49659,4296.0,,,,0.0865099981876397,0.37529929469273743
+CAM035,Compare Health Coverage,Customer Testimonial,SEO,Compare Health Coverage - Customer Testimonial - SEO,19,1428.202582,39736,1720.0,,,,0.043285685524461444,0.83035033837209293
+CAM036,Golden Years Security,Covid Awareness,TV,Golden Years Security - Covid Awareness - TV,13,301.4678661,25492,0.0,,,,0.0,
+CAM037,Compare Health Coverage,Health Tips,SEO,Compare Health Coverage - Health Tips - SEO,13,754.2789024,15970,1749.0,,,,0.10951784596117721,0.43126295162950257
+CAM038,Summer Wellness Tips,Policy Information,Email,Summer Wellness Tips - Policy Information - Email,15,1380.28103,24985,4094.0,,,,0.16385831498899339,0.33714729604298976
+CAM039,Tailored Health Plans,Covid Awareness,SEO,Tailored Health Plans - Covid Awareness - SEO,15,1954.64548,38799,2055.0,,,,0.052965282610376557,0.95116568369829679
+CAM040,Summer Wellness Tips,Covid Awareness,Email,Summer Wellness Tips - Covid Awareness - Email,18,1833.281138,19761,4962.5,,,,0.25112595516421232,0.36942692957178841
+CAM041,Golden Years Security,Covid Awareness,TV,Golden Years Security - Covid Awareness - TV,11,571.7194632,35448,0.0,,,,0.0,
+CAM042,#InsureYourHealth,Offer Announcement,Social Media,#InsureYourHealth - Offer Announcement - Social Media,11,225.4626635,45711,1339.5,,,,0.029303668701187897,0.16831852444942141
+CAM043,#InsureYourHealth,Product Promotion,Social Media,#InsureYourHealth - Product Promotion - Social Media,17,1189.200451,6083,3440.0,,,,0.56551043892816044,0.3456978055232558
+CAM044,Compare Health Coverage,Covid Awareness,SEO,Compare Health Coverage - Covid Awareness - SEO,11,871.8756279,46515,2141.0,,,,0.046028162958185528,0.40722822414759458
+CAM045,Affordable Plans,Covid Awareness,SEO,Affordable Plans - Covid Awareness - SEO,18,448.4411105,21487,1348.5,,,,0.062758877460790244,0.33254809825732295
+CAM046,Preventive Care News,Covid Awareness,Email,Preventive Care News - Covid Awareness - Email,20,1338.129684,39003,3564.5,,,,0.091390405866215413,0.37540459643708796
+CAM047,#HealthyLiving,Health Tips,Social Media,#HealthyLiving - Health Tips - Social Media,10,404.6667763,49541,2342.0,,,,0.047273975091338488,0.17278683872758324
+CAM048,Preventive Care News,Product Promotion,Email,Preventive Care News - Product Promotion - Email,10,767.8147069,10255,4287.0,,,,0.41803998049731839,0.17910303403312341
+CAM049,#HealthyLiving,Offer Announcement,Social Media,#HealthyLiving - Offer Announcement - Social Media,12,1609.678559,6447,2595.5,,,,0.40259035210175276,0.6201805274513581
+CAM050,Compare Health Coverage,Product Promotion,SEO,Compare Health Coverage - Product Promotion - SEO,15,1400.168346,16260,3163.5,,,,0.19455719557195572,0.44260102607871027
+CAM051,Health For All,Policy Information,TV,Health For All - Policy Information - TV,11,1253.532835,20437,0.0,,,,0.0,
+CAM052,Summer Wellness Tips,Product Promotion,Email,Summer Wellness Tips - Product Promotion - Email,11,1868.570846,15644,4065.0,,,,0.25984402965993353,0.4596730248462485
+CAM053,Golden Years Security,Product Promotion,TV,Golden Years Security - Product Promotion - TV,12,338.275359,13480,0.0,,,,0.0,
+CAM054,#InsureYourHealth,Health Tips,Social Media,#InsureYourHealth - Health Tips - Social Media,19,1412.829225,33520,1050.5,,,,0.031339498806682575,1.3449112089481199
+CAM055,Summer Wellness Tips,Health Awareness,Email,Summer Wellness Tips - Health Awareness - Email,12,322.9228083,6900,4536.0,,,,0.65739130434782611,0.0711910953042328
+CAM056,Preventive Care News,Health Tips,Email,Preventive Care News - Health Tips - Email,16,359.1116943,42630,2316.5,,,,0.054339666901243255,0.15502339490610836
+CAM057,Health For All,Health Awareness,TV,Health For All - Health Awareness - TV,17,1062.209448,29630,0.0,,,,0.0,
