@@ -9,8 +9,7 @@ WHERE DATE_TRUNC(claims.claim_date, MONTH) = '2023-06-01';
 -- calculating total claims and monthly average for each product
 -- grouped by month and product name for the year 2020
 WITH monthly_claims AS (
-  SELECT 
-    claims.product_name AS product_name,
+  SELECT claims.product_name AS product_name,
     EXTRACT(MONTH FROM claim_date) AS month,
     COUNT(claims.product_name) AS monthly_total
   FROM `psychic-raceway-393323.rowhealth.claims` claims
@@ -19,8 +18,7 @@ WITH monthly_claims AS (
     1,2
 ),
 monthly_average AS (
-  SELECT 
-    monthly_claims.product_name,
+  SELECT monthly_claims.product_name,
     ROUND(AVG(monthly_claims.monthly_total),2) AS monthly_avg
   FROM monthly_claims
   GROUP BY 1
@@ -174,8 +172,7 @@ WITH more_than_one AS (
 ),
 -- cte to calculate the date of the previous claim for each claim
 previous_claim AS (
-  SELECT    
-    claims.customer_id, 
+  SELECT claims.customer_id, 
     claims.claim_date,
     LAG(claims.claim_date) OVER (PARTITION BY claims.customer_id ORDER BY claim_date) AS previous_claim_date
   FROM `psychic-raceway-393323.rowhealth.claims` claims
@@ -183,8 +180,7 @@ previous_claim AS (
 ), 
 -- cte to calculate the avg number of days between claims for each customer
 avg_days_per_customer AS (
-  SELECT
-    previous_claim.customer_id,
+  SELECT previous_claim.customer_id,
     AVG(DATE_DIFF(previous_claim.claim_date, previous_claim.previous_claim_date, DAY)) AS avg_days_between
   FROM previous_claim
   WHERE previous_claim.previous_claim_date IS NOT NULL
