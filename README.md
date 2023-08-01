@@ -37,7 +37,7 @@ Here is the Entity Relationship Diagram for the data I'll be using:
 You can view the data in greater detail [here](https://github.com/sean-atkinson/row_health_wellness_program_analysis/tree/main/data).
 
 <a id='section_2'></a>
-# Targeted Insights (SQL)
+# Part 1: Targeted Insights (SQL)
 [(Back to table of contents)](#table_of_contents)<br><br>
 <b>Summary of Targeted Insights</b>:
 
@@ -94,4 +94,25 @@ Here is an example of the query result I got to identify the most often purchase
 
 
 <a id='section_3'></a>
-# Marketing Analysis (Excel)
+# Part 2: Marketing Analysis (Excel)
+[(Back to table of contents)](#table_of_contents)<br><br>
+<b>Part 2 Table of Contents</b><br>
+[2.1 Customer Acquisition](#section_2_1)<br>
+[2.2 Brand Awareness](#section_2_2)<br>
+
+Briefly, this is why each metric was selected:
+
+<b>Customer Acquisition</b>
+- Signup rates - This directly relates to acquiring new customers. A high singup rates means a campaign is worth investing in.
+- Cost per signup - Speaks to how efficiently we're acquiring new customers. The lower the cost, the better the ROI.
+- Channel effectiveness - Allows us to know how effective each channel is at acquiring new signups.Through identifying which channels results in the most signups, we can indetify which channels should receive more or less investment.
+
+<b>Brand Awareness</b>
+- Click-through-rate (CTR) - The greater the rate, the greater the engagement with our content. This is a sign of brand recognition and interest.
+- Impressions - The more your ad is shown, the greater the potential there is for people to see it and become aware of your brand.
+- Cost-Per-Click (CPC) - This is a sign of user engagement and helps us to optimize our budget. Originally, cost-per-impression was looked at, but clicking an ad generally speaks to more engagement than just vieiwing an ad, which is crucial for brand awareness.
+<a id='section_2_1'></a>
+# 2.1 Customer Acquisition
+
+<a id='section_2_2'></a>
+# 2.1 Brand Awareness
