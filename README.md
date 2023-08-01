@@ -165,7 +165,9 @@ You can find the SQL code for the dataset I created in BigQuery [here](https://g
 - <b>Re-evaluate Low-Performing Strategies:</b> V has shown poor performance on every metric examined. Reduce its budget by 25% next quarter. Reallocate those resources to high-performing channels Email and Social Media. Reevaluate at the end of the quarter.
 - <b>Expand Email Marketing for Engagement:</b> Experiment with A/B testing by sending half of the target group 15-20% more emails for 30 days. Compare customer acquisition and brand awareness metrics at the end of the test.
 - <b>Get to the Bottom of What’s Going with the Family Coverage Plan Category:</b> It defies all logic that it can have over 1m impressions and not a single click. I strongly suspect there’s something wrong with the event tracking for this category. Have our developers take a closer look at it. 
-<a id='section_3'></a>
+<br>
+
+<a id='section_6'></a>
 # Addendum: Notes on the Marketing Campaign Analysis
 [(Back to table of contents)](#table_of_contents)<br><br>
 With regards to the marketing campaign analysis, please note that the 24 most recent campaigns had incomplete data. They're currently missing total signups, signup rate, and cost per signup. Consequently that means only 33 of the 57 campaigns have complete data and that may have skewed the analysis.
