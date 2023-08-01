@@ -37,7 +37,7 @@ Here is the Entity Relationship Diagram for the data I'll be using:
 You can view the data in greater detail [here](https://github.com/sean-atkinson/row_health_wellness_program_analysis/tree/main/data).
 
 <a id='section_2'></a>
-# Targeted Insights
+# Targeted Insights (SQL)
 [(Back to table of contents)](#table_of_contents)<br><br>
 <b>Summary of Targeted Insights</b>:
 
@@ -45,14 +45,9 @@ You can view the data in greater detail [here](https://github.com/sean-atkinson/
 - Hair Growth Supplements (347 claims per month) and Vitamin B+ Advanced Complex (249 claims per month) were our most claimed products.
 - Interestingly, while Hair Growth Supplements saw a steady rise throughout the year, Vitamin B+ Advanced Complex claims peaked in the spring.
 
-<b>June 2023 claims</b>
-- Total claims: 1,069.
-- Total cost: $137K.
-- Total covered amount: $83k.
-
 <b>Top hair products for June 2023 </b>
 - Hair Vitamins Trio ($18K) and Hair Growth Supplements ($12K) had highest claim amounts.
-- All other hair products didn't break the $1k mark. This mimicks the pattern for the year where Hair Vitamins Trio ($110k) and Hair Growth Supplements ($90k) are our top performers and Hair and Nail Wellbeing ($3.5K) and Hair Vitamins II ($459)lag behind by quite some distance.
+- All other hair products didn't break the $1k mark. This mimicks the pattern for the year where Hair Vitamins Trio ($110k) and Hair Growth Supplements ($90k) are our top performers while Hair and Nail Wellbeing ($3.5K) and Hair Vitamins II ($459) lag behind by quite some distance.
 
 <b>Claims and claim amounts by state in 2023</b>
 - NJ has the most claims (3,964) and has claimed the highest amount ($479K).
@@ -88,5 +83,15 @@ You can view the data in greater detail [here](https://github.com/sean-atkinson/
 - Vitamin B+ Advanced Complex (3,822 times).
 - In terms of second purchases, Vitamin B+ Advanced Complex has outsold the #2 (Hair Growth Supplements) and #3(Detox + Debloat Vitamin) products on the list combined (3,822 vs 3,661)
 
+<b>Technical Analysis:</b><br>
+For this analysis, I used SQL and BigQuery. In regards to SQL, I used aggregation functions, window functions, joins, filtering, common table expressions (CTEs), and the QUALIFY clause to use row_number() to filter results.
+
+You can find my SQL queries for the above and other insights [here](https://github.com/sean-atkinson/row_health_wellness_program_analysis/blob/main/sql/claims_department_queries.sql).
+
+Here is an example of the query result I got to identify the most often purchased second product for customers who've made more than one purchase (with the help of the qualify clause):
+
+<img width="750" alt="SQL query result" src="https://imgur.com/Xr54XHI.png">
+
+
 <a id='section_3'></a>
-# Marketing Analysis
+# Marketing Analysis (Excel)
