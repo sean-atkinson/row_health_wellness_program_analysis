@@ -1,3 +1,5 @@
+# Row Health Wellness Program Analysis: 2019-2023
+
 # Table of Contents
 <a id='table_of_contents'></a><br>
 [Project Summary](#section_1)<br>
@@ -139,7 +141,7 @@ Here is an example of the query result I got to identify the most often purchase
 
 <b>Technical Analysis:</b>
 
-For this section, I used Pivot Tables, conditional formatting, calculated fields and statistical analysis to analyze and summarize my insights for the marketing team. SQL and BigQuery were also used to create the dataset I used for my analysis.
+For this section, I used SQL and BigQuery to create a marketing campaign dataset. As part of the data preparation, I created derived columns for metrics that didn't pre-exist within the data (num_signups, signup_rate, cost_per_signup, click_through_rate, and cost per-click). In Excel, I also used calculated fields because of an issue with non-weighted metrics. Additionally, I used Pivot Tables, conditional formatting and statistical analysis to analyze and summarize my insights for the marketing team. 
 
 Here is an example of the pivot table used for customer acquisition insights:
 
@@ -158,11 +160,11 @@ You can find the SQL code for the dataset I created in BigQuery [here](https://g
 <a id='section_5'></a>
 # Part 4: Recommendations & Next Steps
 [(Back to table of contents)](#table_of_contents)<br><br>
-- <b>Prioritize High-Performing Campaigns and Platforms:</b> The "Health For All" campaign and email marketing efforts have proven to be most effective in terms of signup rates. Similarly, "#CoverageMatters"  has demonstrated a high ROI with a low cost per signup. We should invest more in these high-performing campaigns and platforms.
-- <b>Think About Leveraging Social Media for Customer Acquisition and Brand Awareness:</b> Social media has demonstrated strong performance in several metrics. It leads in signups, has a low cost per signup, and has the highest number of impressions. We <i>might</i> want to focus more on social media to increase brand awareness and customer acquisition. I write might because of the [tumultuous 2022 social media marketing had](https://econsultancy.com/social-media-advertising-2023-trends-predictions/?ssp=1&setlang=en-CA&safesearch=moderate). It might be best to hedge our bets until the results from our most recent campaigns come in.
-- <b>Re-evaluate Low-Performing Strategies:</b> TV has shown poor performance on every metric examined. Reallocate resources from TV to high performing strategies like Email and (perhaps) Social Media. 
-- <b>Expand Email Marketing for Engagement:</b> Email has demonstrated the highest click-through rate and lowest cost per click, suggesting it is an effective platform for engagement. While social media is excellent for impressions and reach, email seems to be best for actual engagement.
-- <b>Get to the Bottom of What’s Going with the Family Coverage Plan Category:</b> It defies all logic that it can have over 1m impressions and yet not a single click.
+- <b>Prioritize High-Performing Campaigns and Platforms:</b> Given the strong performance of the 'Health For All' campaign and email marketing efforts, consider increasing the budget for these initiatives by 15-20%. Keep monitoring KPIs to ensure they campaigns continue to have strong ROI.
+- <b>Think About Leveraging Social Media for Customer Acquisition and Brand Awareness:</b> Social media has demonstrated strong performance in several metrics.  That being said, [we’re in tumultuous time when it come to social media marketing](https://econsultancy.com/social-media-advertising-2023-trends-predictions/?ssp=1&setlang=en-CA&safesearch=moderate). It might be best to experiment with increasing social media budget by 10% for the next quarter while closely monitoring customer acquisition and brand awareness metrics.
+- <b>Re-evaluate Low-Performing Strategies:</b> V has shown poor performance on every metric examined. Reduce its budget by 25% next quarter. Reallocate those resources to high-performing channels Email and Social Media. Reevaluate at the end of the quarter.
+- <b>Expand Email Marketing for Engagement:</b> Experiment with A/B testing by sending half of the target group 15-20% more emails for 30 days. Compare customer acquisition and brand awareness metrics at the end of the test.
+- <b>Get to the Bottom of What’s Going with the Family Coverage Plan Category:</b> It defies all logic that it can have over 1m impressions and not a single click. I strongly suspect there’s something wrong with the event tracking for this category. Have our developers take a closer look at it. 
 <a id='section_3'></a>
 # Addendum: Notes on the Marketing Campaign Analysis
 [(Back to table of contents)](#table_of_contents)<br><br>
