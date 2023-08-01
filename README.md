@@ -15,5 +15,5 @@ In this project, I take on the role of a data analyst within the patient researc
 
 Here is the Entity Relationship Diagram for the data I'll be using:
 
-<img width="750" alt="image" src="https://imgur.com/yzvhTIF.png">
+<img width="750" alt="image" src="https://imgur.com/PvUzVJm.png">
 
