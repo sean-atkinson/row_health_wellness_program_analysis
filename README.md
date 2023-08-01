@@ -3,7 +3,7 @@
 [Project Summary](#section_1)<br>
 [Part 1: Targeted Insights (SQL)](#section_2)<br>
 [Part 2: Marketing Analysis (Excel)](#section_3)<br>
-[Part 3: ???](#section_4)<br>
+[Part 3: TBD](#section_4)<br>
 [Part 4: Recommendations & Next Steps](#section_5)<br>
 [Addendum: Notes on the Marketing Campaign Analysis](#section_6)<br>
 
@@ -25,7 +25,7 @@ This project consists of four parts:
 - <b>Part 2: Marketing Analysis</b>
   * Leveraging Excel, I assess campaign performance for our marketing team, focusing on customer acqusition and brand awareness, by selecyting three metrics of interest for each. 
 
-- <b>Part 3: FILL THIS IN</b>
+- <b>Part 3: TBD</b>
   * ? 
 
 - <b>Part 4: Recommendations & Next Steps</b>
@@ -152,7 +152,7 @@ You can find the SQL code for the dataset I created in BigQuery [here](https://g
 <br>
 
 <a id='section_4'></a>
-# Part 3: ???
+# Part 3: TO BE DETERMINED
 [(Back to table of contents)](#table_of_contents)<br><br>
 
 <a id='section_5'></a>
@@ -166,3 +166,4 @@ You can find the SQL code for the dataset I created in BigQuery [here](https://g
 <a id='section_3'></a>
 # Addendum: Notes on the Marketing Campaign Analysis
 [(Back to table of contents)](#table_of_contents)<br><br>
+With regards to the marketing campaign analysis, please note that the 24 most recent campaigns had incomplete data. They're currently missing total signups, signup rate, and cost per signup. Consequently that means only 33 of the 57 campaigns have complete data and that may have skewed the analysis.
