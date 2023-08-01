@@ -81,9 +81,9 @@ You can view the data in greater detail [here](https://github.com/sean-atkinson/
 
 <b>The product most often bought as a second product for customers with more than one order</b>
 - Vitamin B+ Advanced Complex (3,822 times).
-- In terms of second purchases, Vitamin B+ Advanced Complex has outsold the #2 (Hair Growth Supplements) and #3(Detox + Debloat Vitamin) products on the list combined (3,822 vs 3,661)
+- In terms of second purchases, Vitamin B+ Advanced Complex has outsold the #2 (Hair Growth Supplements) and #3(Detox + Debloat Vitamin) products on the list combined (3,822 vs 3,661).
 
-<b>Technical Analysis:</b><br>
+## Technical Analysis
 For this analysis, I used SQL and BigQuery. In regards to SQL, I used aggregation functions, window functions, joins, filtering, common table expressions (CTEs), and the QUALIFY clause to use row_number() to filter results.
 
 You can find my SQL queries for the above and other insights [here](https://github.com/sean-atkinson/row_health_wellness_program_analysis/blob/main/sql/claims_department_queries.sql).
@@ -96,37 +96,47 @@ Here is an example of the query result I got to identify the most often purchase
 <a id='section_3'></a>
 # Part 2: Marketing Analysis (Excel)
 [(Back to table of contents)](#table_of_contents)<br><br>
-<a id='section_2_table_of_contents'></a>
-## <b>Part 2 Table of Contents</b>
-[2.1 Customer Acquisition](#section_2_1)<br>
-[2.2 Brand Awareness](#section_2_2)<br>
 
 Briefly, this is why each metric was selected:
 
 <b>Customer Acquisition</b>
 - Signup rates - This directly relates to acquiring new customers.
 - Cost per signup - Speaks to how efficiently we're acquiring new customers. T
-- Channel effectiveness - Allows us to know how effective each channel is at acquiring new signups, enabling us to identify which channels should receive more or less investment.
+- Signups by channel - Allows us to know how effective each channel is at acquiring new signups, enabling us to identify which channels should receive more or less investment.
 
 <b>Brand Awareness</b>
 - Click-through-rate (CTR) - The greater the rate, the greater the engagement with our content, a sign of brand recognition and interest.
 - Impressions - The more your ad is shown, the greater the potential there is for people to see it and become aware of your brand.
 - Cost-Per-Click (CPC) - This is a sign of user engagement and helps us to optimize our budget. Originally, cost-per-impression was looked at, but clicking an ad generally speaks to more engagement than just vieiwing an ad, which is crucial for brand awareness.
 
-<a id='section_2_1'></a>
-# 2.1 Customer Acquisition
-[(Back to Section 2 table of contents)](#section_2_table_of_contents)<br>
-<b>Signup Rates</b>
+## Customer Acquisition
+<b>Signup rates</b>
 - Health For All  is the best performing campaign category with a 2.08% signup rate. This is largely due to our Email efforts which by themselves have a signup rate of 3.72%. 
 - There's a considerable variation in signup rates across different categories. While Health For All has the highest signup rate at 2.08%, Golden Years Security has the lowest signup rate at a mere 0.001%.
 - Social media is been our best performing platform with a 0.23% signup rate, Email follows closely at 0.20%.
 
 <b>Cost per signup</b>
-- 258 days.
+- #CoverMatters is the campaign category with the lowest cost per signup ($0.65). Health for All ($1.23) is second. Golden Years Security has the highest cost per signup at $176.73.
+- Social Media ($2.25) and Email ($4.04) are our best platforms. TV is by far our worse, with a cost per signup that was 366% higher than social media’s.
 
-<b>The product most often bought as a second product for customers with more than one order</b>
-- Vitamin B+ Advanced Complex (3,822 times).
-- In terms of second purchases, Vitamin B+ Advanced Complex has outsold the #2 (Hair Growth Supplements) and #3(Detox + Debloat Vitamin) products on the list combined (3,822 vs 3,661)
+<b>Signups by channel</b>
+- Social media, with 7,610 signups, brought in 85% more than Email, which was the second most.
+- Email and SEO are quite close in terms of total signups, with 4,130 and 4,055 signups respectively.
+- TV is the platform with the least number of total signups, only managing to bring in 494 signups. This, coupled with its high cost per signup ($10.48) and low signup rate (0.08%), suggests that TV is the least effective platform for customer acquisition. 
 
-<a id='section_2_2'></a>
-# 2.1 Brand Awareness
+## Brand Awareness
+<b>Click-through-rate (CTR)</b>
+- Health for All is the campaign category with the highest CTR at 25.48%. Again, email is doing the heavy lifting here with a click through rate of 49.26%.
+- In terms of platforms, email perform the best at 16.71%, 94% higher than the next closest platform (Social Media at 8.62%). TV has a 0% CTR.
+- The Family Coverage Plan category has a CTR of 0%, indicating no clicks, despite 1.1M impressions. This is something that needs to be looked into further.
+
+<b>Impressions</b>
+- Tailored Health Plans, #HealthyLiving, Preventive Care News and Family Coverage Plan are the only campaign categories to surpass 1M impressions.
+- Health for All has the lowest total impressions of any campaign category (170K). This is quite interesting because it only has 182 less signups than our best performing campaign category for signups.
+- Social Media and SEO have been our best channels for impression at 3.3M AND 3.2M respectively. TV lags behind everyone with 600K.
+
+<b>Cost-per-click (CPC)</b>
+- For campaigns that have recorded at least one click, email is our best platform with a cost per click of $0.05, social media is next at $0.06.
+- TV and SEO are our worse. TV has not recorded a single click. SEO has a CPC of $0.09.
+
+## Technical Analysis
