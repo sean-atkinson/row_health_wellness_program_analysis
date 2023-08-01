@@ -17,6 +17,7 @@ WITH monthly_claims AS (
   GROUP BY 
     1,2
 ),
+  
 monthly_average AS (
   SELECT monthly_claims.product_name,
     ROUND(AVG(monthly_claims.monthly_total),2) AS monthly_avg
@@ -24,6 +25,7 @@ monthly_average AS (
   GROUP BY 1
   ORDER BY 1
 )
+  
 SELECT DATE_TRUNC(claims.claim_date, MONTH) AS month,
   claims.product_name,
   COUNT(DISTINCT claims.claim_id) AS total_claims,
@@ -35,7 +37,8 @@ WHERE EXTRACT(YEAR FROM claims.claim_date) = 2020
 GROUP BY 1, 2, 4
 ORDER BY 1, 2;
 
--- fetching the top 2 products related to 'hair' with the highest claimed amount for June 2023.
+-- fetching the top 2 products related to 'hair' with the highest claimed amount for June 2023
+-- assuming "top" means highest-earning in terms of claim amounts
 SELECT claims.product_name AS product,
   ROUND(SUM(claim_amount),2) AS total_claimed_amt
 FROM `psychic-raceway-393323.rowhealth.claims` claims
@@ -69,6 +72,7 @@ WITH totals AS (
     ON claims.customer_id = customers.customer_id
   GROUP BY 1, 2
 )
+  
 SELECT state,
   AVG(yearly_claims) AS avg_claims,
   ROUND(AVG(yearly_claimed_amt),2) AS avg_total_claim_amt
@@ -152,7 +156,7 @@ FROM `psychic-raceway-393323.rowhealth.claims` claims
 JOIN customer_list
   ON claims.customer_id = customer_list.customer_id;
 
--- calculating the average reimbursement percentage for claims on 'hair' products from New York customers 
+-- calculating the overall average reimbursement percentage for claims on 'hair' products from New York customers 
 -- or any 'supplement' products, excluding claims with a claim amount of zero
 SELECT ROUND(AVG((claims.covered_amount)/NULLIF(claims.claim_amount, 0))*100,2) AS avg_reimbursement
 FROM `psychic-raceway-393323.rowhealth.claims` claims 
@@ -162,6 +166,18 @@ WHERE ((LOWER(claims.product_name) LIKE '%hair%' AND customers.state = 'NY')
   OR (LOWER(claims.product_name) LIKE '%supplement%'))
   AND claims.claim_amount != 0;
 
+-- calculating the yearly average reimbursement percentage for claims on 'hair' products from New York customers 
+-- or any 'supplement' products, excluding claims with a claim amount of zero
+SELECT extract (year from claims.claim_date) as year,
+  round(avg((claims.covered_amount)/nullif(claims.claim_amount, 0))*100,2) as avg_reimbursement
+FROM `psychic-raceway-393323.rowhealth.claims` claims 
+JOIN `psychic-raceway-393323.rowhealth.customers` customers
+  ON claims.customer_id = customers.customer_id
+WHERE ((lower(claims.product_name) like '%hair%' and customers.state = 'NY')
+  OR (lower(claims.product_name) like '%supplement%'))
+  AND claims.claim_amount != 0
+group by 1;
+
 -- calculating the average number of days between claims for customers who have made more than one claim
 -- cte to filter customers with more than one claim
 WITH more_than_one AS (
@@ -170,6 +186,7 @@ WITH more_than_one AS (
   GROUP BY 1
   HAVING COUNT(DISTINCT claims.claim_id) > 1
 ),
+  
 -- cte to calculate the date of the previous claim for each claim
 previous_claim AS (
   SELECT claims.customer_id, 
@@ -178,6 +195,7 @@ previous_claim AS (
   FROM `psychic-raceway-393323.rowhealth.claims` claims
   WHERE claims.customer_id IN (SELECT customer_id FROM more_than_one) -- Use the more_than_one cte here
 ), 
+  
 -- cte to calculate the avg number of days between claims for each customer
 avg_days_per_customer AS (
   SELECT previous_claim.customer_id,
@@ -190,30 +208,53 @@ avg_days_per_customer AS (
 SELECT ROUND(AVG(avg_days_between)) AS avg_days_between
 FROM avg_days_per_customer;
 
--- identifying the most commonly ordered second product for customers who have made more than one claim
+-- calculating the average number of days between claims for each customer who made more than one claim --
 -- cte to filter customers with more than one claim
-WITH more_than_one_order AS (
-  SELECT claims.customer_id,
-    COUNT(product_name) AS total_products
+WITH more_than_one AS (
+  SELECT claims.customer_id
   FROM `psychic-raceway-393323.rowhealth.claims` claims
   GROUP BY 1
-  HAVING total_products > 1
+  HAVING COUNT(DISTINCT claims.claim_id) > 1
 ),
---  to rank the orders for each customer
-purchase_rank AS (
-  SELECT claims.customer_id,
-    claims.claim_id, 
+  
+-- cte to calculate the date of the previous claim for each claim
+previous_claim AS (
+  SELECT claims.customer_id, 
     claims.claim_date,
-    claims.product_name,
-    ROW_NUMBER() OVER (PARTITION BY claims.customer_id ORDER BY claim_date) AS order_rank
+    LAG(claims.claim_date) OVER (PARTITION BY claims.customer_id ORDER BY claim_date) AS previous_claim_date
   FROM `psychic-raceway-393323.rowhealth.claims` claims
-  JOIN more_than_one_order
-    ON claims.customer_id = more_than_one_order.customer_id
+  JOIN more_than_one
+    ON claims.customer_id = more_than_one.customer_id
+),
+  
+-- cte to calculate the average number of days between claims for each customer
+avg_days_per_customer AS (
+  SELECT previous_claim.customer_id,
+    ROUND(AVG(DATE_DIFF(previous_claim.claim_date, previous_claim.previous_claim_date, DAY)), 2) AS avg_days_between
+  FROM previous_claim
+  WHERE previous_claim.previous_claim_date IS NOT NULL
+  GROUP BY 1
 )
--- main query to get the most common second order
-SELECT purchase_rank.product_name,
-  COUNT(purchase_rank.product_name) AS total
-FROM purchase_rank
-WHERE order_rank = 2
+  
+-- main query calculates the average of the averages calculated in the avg_days_per_customer cte
+SELECT ROUND(AVG(avg_days_between), 2) AS avg_days_between
+FROM avg_days_per_customer;
+
+
+-- identifying the most commonly ordered second product for customers who have made more than one claim
+-- cte to filter customers with more than one claim
+WITH customers_multiple_orders AS (
+  SELECT *
+  FROM `psychic-raceway-393323.rowhealth.claims` claims
+  LEFT JOIN `psychic-raceway-393323.rowhealth.customers` customers
+  ON claims.customer_id = customers.customer_id 
+  QUALIFY ROW_NUMBER() OVER (PARTITION BY claims.customer_id ORDER BY claim_date) = 2
+  ORDER BY 1
+)
+
+-- main query to calculate the number of claims for each product name 
+SELECT product_name, 
+  COUNT(DISTINCT claim_id) AS num_claims
+FROM customers_multiple_orders
 GROUP BY 1
 ORDER BY 2 DESC;
