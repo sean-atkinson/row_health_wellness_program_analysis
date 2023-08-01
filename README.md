@@ -96,23 +96,43 @@ Here is an example of the query result I got to identify the most often purchase
 <a id='section_3'></a>
 # Part 2: Marketing Analysis (Excel)
 [(Back to table of contents)](#table_of_contents)<br><br>
-<b>Part 2 Table of Contents</b><br>
+<a id='section_2_table_of_contents'></a>
+## <b>Part 2 Table of Contents</b>
 [2.1 Customer Acquisition](#section_2_1)<br>
 [2.2 Brand Awareness](#section_2_2)<br>
+
+<a id='section_2_table_of_contents'></a>
+## <b>Part 2 Table of Contents</b>
+[2.1 Customer Acquisition](#section_2_1)<br>
+[2.2 Brand Awareness](#section_2_2)<br>
+
 
 Briefly, this is why each metric was selected:
 
 <b>Customer Acquisition</b>
-- Signup rates - This directly relates to acquiring new customers. A high singup rates means a campaign is worth investing in.
-- Cost per signup - Speaks to how efficiently we're acquiring new customers. The lower the cost, the better the ROI.
-- Channel effectiveness - Allows us to know how effective each channel is at acquiring new signups.Through identifying which channels results in the most signups, we can indetify which channels should receive more or less investment.
+- Signup rates - This directly relates to acquiring new customers.
+- Cost per signup - Speaks to how efficiently we're acquiring new customers. T
+- Channel effectiveness - Allows us to know how effective each channel is at acquiring new signups, enabling us to identify which channels should receive more or less investment.
 
 <b>Brand Awareness</b>
-- Click-through-rate (CTR) - The greater the rate, the greater the engagement with our content. This is a sign of brand recognition and interest.
+- Click-through-rate (CTR) - The greater the rate, the greater the engagement with our content, a sign of brand recognition and interest.
 - Impressions - The more your ad is shown, the greater the potential there is for people to see it and become aware of your brand.
 - Cost-Per-Click (CPC) - This is a sign of user engagement and helps us to optimize our budget. Originally, cost-per-impression was looked at, but clicking an ad generally speaks to more engagement than just vieiwing an ad, which is crucial for brand awareness.
+
 <a id='section_2_1'></a>
 # 2.1 Customer Acquisition
+[(Back to Section 2 table of contents)](#section_2_table_of_contents)<br>
+<b>Signup Rates</b>
+- Health For All  is the best performing campaign category with a 2.08% signup rate. This is largely due to our Email efforts which by themselves have a signup rate of 3.72%. 
+- There's a considerable variation in signup rates across different categories. While Health For All has the highest signup rate at 2.08%, Golden Years Security has the lowest signup rate at a mere 0.001%.
+- Social media is been our best performing platform with a 0.23% signup rate, Email follows closely at 0.20%.
+
+<b>Cost per signup</b>
+- 258 days.
+
+<b>The product most often bought as a second product for customers with more than one order</b>
+- Vitamin B+ Advanced Complex (3,822 times).
+- In terms of second purchases, Vitamin B+ Advanced Complex has outsold the #2 (Hair Growth Supplements) and #3(Detox + Debloat Vitamin) products on the list combined (3,822 vs 3,661)
 
 <a id='section_2_2'></a>
 # 2.1 Brand Awareness
