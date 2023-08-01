@@ -101,12 +101,6 @@ Here is an example of the query result I got to identify the most often purchase
 [2.1 Customer Acquisition](#section_2_1)<br>
 [2.2 Brand Awareness](#section_2_2)<br>
 
-<a id='section_2_table_of_contents'></a>
-## <b>Part 2 Table of Contents</b>
-[2.1 Customer Acquisition](#section_2_1)<br>
-[2.2 Brand Awareness](#section_2_2)<br>
-
-
 Briefly, this is why each metric was selected:
 
 <b>Customer Acquisition</b>
