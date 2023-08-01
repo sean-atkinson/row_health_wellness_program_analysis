@@ -3,6 +3,9 @@
 [Project Summary](#section_1)<br>
 [Part 1: Targeted Insights (SQL)](#section_2)<br>
 [Part 2: Marketing Analysis (Excel)](#section_3)<br>
+[Part 3: ???](#section_4)<br>
+[Part 4: Recommendations & Next Steps](#section_5)<br>
+[Addendum: Notes on the Marketing Campaign Analysis](#section_6)<br>
 
 <a id='section_1'></a>
 # Project Summary
@@ -20,7 +23,7 @@ This project consists of four parts:
   * Using SQL, I offer up answers to questions from the claims department on things like the top hair-related products, states with the most claims, and the most frequent users of our reimbursement program.
  
 - <b>Part 2: Marketing Analysis</b>
-  * Leveraging Excel, I assess campaign performance for our marketing team focusing on customer acqusition and brand awareness. 
+  * Leveraging Excel, I assess campaign performance for our marketing team, focusing on customer acqusition and brand awareness, by selecyting three metrics of interest for each. 
 
 - <b>Part 3: FILL THIS IN</b>
   * ? 
@@ -35,11 +38,13 @@ Here is the Entity Relationship Diagram for the data I'll be using:
 <img width="750" alt="image" src="https://imgur.com/PvUzVJm.png">
 
 You can view the data in greater detail [here](https://github.com/sean-atkinson/row_health_wellness_program_analysis/tree/main/data).
+<br>
 
 <a id='section_2'></a>
 # Part 1: Targeted Insights (SQL)
 [(Back to table of contents)](#table_of_contents)<br><br>
-<b>Summary of Targeted Insights</b>:
+
+<b>SUMMARY:</b>
 
 <b>2020 Product claims</b>
 - Hair Growth Supplements (347 claims per month) and Vitamin B+ Advanced Complex (249 claims per month) were our most claimed products.
@@ -83,7 +88,7 @@ You can view the data in greater detail [here](https://github.com/sean-atkinson/
 - Vitamin B+ Advanced Complex (3,822 times).
 - In terms of second purchases, Vitamin B+ Advanced Complex has outsold the #2 (Hair Growth Supplements) and #3(Detox + Debloat Vitamin) products on the list combined (3,822 vs 3,661).
 
-## Technical Analysis
+<b>Technical Analysis:</b><br>
 For this analysis, I used SQL and BigQuery. In regards to SQL, I used aggregation functions, window functions, joins, filtering, common table expressions (CTEs), and the QUALIFY clause to use row_number() to filter results.
 
 You can find my SQL queries for the above and other insights [here](https://github.com/sean-atkinson/row_health_wellness_program_analysis/blob/main/sql/claims_department_queries.sql).
@@ -91,25 +96,17 @@ You can find my SQL queries for the above and other insights [here](https://gith
 Here is an example of the query result I got to identify the most often purchased second product for customers who've made more than one purchase (with the help of the qualify clause):
 
 <img width="750" alt="SQL query result" src="https://imgur.com/Xr54XHI.png">
-
+<br>
 
 <a id='section_3'></a>
 # Part 2: Marketing Analysis (Excel)
 [(Back to table of contents)](#table_of_contents)<br><br>
 
-Briefly, this is why each metric was selected:
+<b>SUMMARY:</b>
 
-<b>Customer Acquisition</b>
-- Signup rates - This directly relates to acquiring new customers.
-- Cost per signup - Speaks to how efficiently we're acquiring new customers. T
-- Signups by channel - Allows us to know how effective each channel is at acquiring new signups, enabling us to identify which channels should receive more or less investment.
 
-<b>Brand Awareness</b>
-- Click-through-rate (CTR) - The greater the rate, the greater the engagement with our content, a sign of brand recognition and interest.
-- Impressions - The more your ad is shown, the greater the potential there is for people to see it and become aware of your brand.
-- Cost-Per-Click (CPC) - This is a sign of user engagement and helps us to optimize our budget. Originally, cost-per-impression was looked at, but clicking an ad generally speaks to more engagement than just vieiwing an ad, which is crucial for brand awareness.
+<b>CUSTOMER ACQUISITION</b>
 
-## Customer Acquisition
 <b>Signup rates</b>
 - Health For All  is the best performing campaign category with a 2.08% signup rate. This is largely due to our Email efforts which by themselves have a signup rate of 3.72%. 
 - There's a considerable variation in signup rates across different categories. While Health For All has the highest signup rate at 2.08%, Golden Years Security has the lowest signup rate at a mere 0.001%.
@@ -122,9 +119,10 @@ Briefly, this is why each metric was selected:
 <b>Signups by channel</b>
 - Social media, with 7,610 signups, brought in 85% more than Email, which was the second most.
 - Email and SEO are quite close in terms of total signups, with 4,130 and 4,055 signups respectively.
-- TV is the platform with the least number of total signups, only managing to bring in 494 signups. This, coupled with its high cost per signup ($10.48) and low signup rate (0.08%), suggests that TV is the least effective platform for customer acquisition. 
+- TV is the platform with the least number of total signups, only managing to bring in 494 signups. This, coupled with its high cost per signup ($10.48) and low signup rate (0.08%), suggests that TV is the least effective platform for customer acquisition.<br> 
 
-## Brand Awareness
+<b>BRAND AWARENESS</b>
+
 <b>Click-through-rate (CTR)</b>
 - Health for All is the campaign category with the highest CTR at 25.48%. Again, email is doing the heavy lifting here with a click through rate of 49.26%.
 - In terms of platforms, email perform the best at 16.71%, 94% higher than the next closest platform (Social Media at 8.62%). TV has a 0% CTR.
@@ -139,4 +137,32 @@ Briefly, this is why each metric was selected:
 - For campaigns that have recorded at least one click, email is our best platform with a cost per click of $0.05, social media is next at $0.06.
 - TV and SEO are our worse. TV has not recorded a single click. SEO has a CPC of $0.09.
 
-## Technical Analysis
+<b>Technical Analysis:</b>
+
+For this section, I used Pivot Tables, conditional formatting, calculated fields and statistical analysis to analyze and summarize my insights for the marketing team. SQL and BigQuery were also used to create the dataset I used for my analysis.
+
+Here is an example of the pivot table used for customer acquisition insights:
+
+<img width="750" alt="Excel pivot table showing signup rates, cost per signup, total and total signups on the campaign category and channel level" src="https://imgur.com/Z0qa7a0.png">
+
+You can find more detailed analysis in [this downloadable Excel workbook](https://github.com/sean-atkinson/row_health_wellness_program_analysis/blob/main/excel/row_health_marketing_workbook.xlsx).
+
+You can find the SQL code for the dataset I created in BigQuery [here](https://github.com/sean-atkinson/row_health_wellness_program_analysis/blob/main/sql/marketing_campaigns_table.sql).
+
+<br>
+
+<a id='section_4'></a>
+# Part 3: ???
+[(Back to table of contents)](#table_of_contents)<br><br>
+
+<a id='section_5'></a>
+# Part 4: Recommendations & Next Steps
+[(Back to table of contents)](#table_of_contents)<br><br>
+- <b>Prioritize High-Performing Campaigns and Platforms:</b> The "Health For All" campaign and email marketing efforts have proven to be most effective in terms of signup rates. Similarly, "#CoverageMatters"  has demonstrated a high ROI with a low cost per signup. We should invest more in these high-performing campaigns and platforms.
+- <b>Think About Leveraging Social Media for Customer Acquisition and Brand Awareness:</b> Social media has demonstrated strong performance in several metrics. It leads in signups, has a low cost per signup, and has the highest number of impressions. We <i>might</i> want to focus more on social media to increase brand awareness and customer acquisition. I write might because of the [tumultuous 2022 social media marketing had](https://econsultancy.com/social-media-advertising-2023-trends-predictions/?ssp=1&setlang=en-CA&safesearch=moderate). It might be best to hedge our bets until the results from our most recent campaigns come in.
+- <b>Re-evaluate Low-Performing Strategies:</b> TV has shown poor performance on every metric examined. Reallocate resources from TV to high performing strategies like Email and (perhaps) Social Media. 
+- <b>Expand Email Marketing for Engagement:</b> Email has demonstrated the highest click-through rate and lowest cost per click, suggesting it is an effective platform for engagement. While social media is excellent for impressions and reach, email seems to be best for actual engagement.
+- <b>Get to the Bottom of What’s Going with the Family Coverage Plan Category:</b> It defies all logic that it can have over 1m impressions and yet not a single click.
+<a id='section_3'></a>
+# Addendum: Notes on the Marketing Campaign Analysis
+[(Back to table of contents)](#table_of_contents)<br><br>
