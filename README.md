@@ -27,7 +27,7 @@ This project consists of three parts:
 - <b>Part 1: Targeted Insights</b>
   * Using SQL, I offer up answers to questions from the Claims Department on things like the top hair-related products, states with the most claims, and the most frequent users of our reimbursement program.
  
-- <b>Part 2: Marketing Analysis</b>
+- <b>Part 2: Marketing Campaign Analysis</b>
   * Leveraging Excel, I assess campaign performance for our marketing team, focusing on customer acquisition and brand awareness, by selecting three metrics of interest for each.
 
 - <b>Part 3: Recommendations & Next Steps</b>
