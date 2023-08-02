@@ -5,8 +5,8 @@
 [Project Summary](#section_1)<br>
 [Part 1: Targeted Insights (SQL)](#section_2)<br>
 [Part 2: Marketing Analysis (Excel)](#section_3)<br>
-[Part 3: Recommendations & Next Steps](#section_5)<br>
-[Addendum: Notes on the Marketing Campaign Analysis](#section_6)<br>
+[Part 3: Recommendations & Next Steps](#section_4)<br>
+[Addendum: Notes on the Marketing Campaign Analysis](#section_5)<br>
 
 <a id='section_1'></a>
 # Project Summary
@@ -177,11 +177,7 @@ You can find the SQL code for the dataset I created in BigQuery [here](https://g
 <br>
 
 <a id='section_4'></a>
-# Part 3: TO BE DETERMINED
-[(Back to table of contents)](#table_of_contents)<br><br>
-
-<a id='section_5'></a>
-# Part 4: Recommendations & Next Steps
+# Part 3: Recommendations & Next Steps
 [(Back to table of contents)](#table_of_contents)<br><br>
 - <b>Prioritize High-Performing Campaigns and Platforms:</b> Given the strong performance of the 'Health For All' campaign and email marketing efforts, consider increasing the budget for these initiatives by 15-20% (a percentage high enough to see results, but low enough in terms of spend, $3.3K on the high end to be sufficiently cautious). Keep monitoring KPIs to ensure they campaigns continue to have strong ROI.
 - <b>Think About Leveraging Social Media for Customer Acquisition and Brand Awareness:</b> Social media has demonstrated strong performance in several metrics.  That being said, [we’re in tumultuous time when it come to social media marketing](https://econsultancy.com/social-media-advertising-2023-trends-predictions/?ssp=1&setlang=en-CA&safesearch=moderate). Perhaps caution is the better part of valour here. It might be best to experiment with increasing social media budget by 10% for the next quarter while closely monitoring customer acquisition and brand awareness metrics.
@@ -190,7 +186,7 @@ You can find the SQL code for the dataset I created in BigQuery [here](https://g
 - <b>Get to the Bottom of What’s Going with the Family Coverage Plan Category:</b> It defies all logic that it can have over 1m impressions and not a single click. I strongly suspect there’s something wrong with the event tracking for this category. Have our developers take a closer look at it. 
 <br>
 
-<a id='section_6'></a>
+<a id='section_5'></a>
 # Addendum: Notes on the Marketing Campaign Analysis
 [(Back to table of contents)](#table_of_contents)<br><br>
 With regards to the marketing campaign analysis, please note that the 24 most recent campaigns had incomplete data. They're currently missing total signups, signup rate, and cost per signup. Consequently that means only 33 of the 57 campaigns have complete data and that may have skewed the analysis.
