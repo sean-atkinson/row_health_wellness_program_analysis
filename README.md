@@ -173,7 +173,7 @@ You can find the SQL code for the dataset I created in BigQuery [here](https://g
 - <b>Re-evaluate Low-Performing Strategies:</b> TV has shown poor performance on every metric examined. Reduce its budget by 25% next quarter. Reallocate those resources to high-performing channels Email and Social Media. While it’s a significant decrease, it’s not the complete abandonment of this channel. We can re-evaluate at the end of the quarter.
 - <b>Expand Email Marketing for Engagement:</b> Experiment with A/B testing by sending half of the target group 15-20% more emails for 30 days (a modest increase but enough to produce a noticeable result if there is an impact). Compare customer acquisition and brand awareness metrics at the end of the test.
 - <b>Get to the Bottom of What’s Going with the Family Coverage Plan Category:</b> It defies all logic that it can have over 1m impressions and not a single click. I strongly suspect there’s something wrong with the event tracking for this category. Have our developers take a closer look at it.
-- <b> Improve Data Quality and Include Other Dimensions:</b> Add revenue to calculate ROI. Add customer-specific dimensions (plan, state, signup platform) to better customize campaign recommendations. Inestivgate how run time affects KPIs.
+- <b> Improve Data Quality and Include Other Dimensions:</b> Add revenue to calculate ROI. Add customer-specific dimensions (plan, state, signup platform) to better customize campaign recommendations. Investigate how run time affects KPIs.
 <br>
 
 <a id='section_5'></a>
