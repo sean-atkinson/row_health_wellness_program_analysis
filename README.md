@@ -24,12 +24,9 @@ This project consists of four parts:
   * Using SQL, I offer up answers to questions from the claims department on things like the top hair-related products, states with the most claims, and the most frequent users of our reimbursement program.
  
 - <b>Part 2: Marketing Analysis</b>
-  * Leveraging Excel, I assess campaign performance for our marketing team, focusing on customer acqusition and brand awareness, by selecyting three metrics of interest for each. 
+  * Leveraging Excel, I assess campaign performance for our marketing team, focusing on customer acquisition and brand awareness, by selecting three metrics of interest for each.
 
-- <b>Part 3: TBD</b>
-  * ? 
-
-- <b>Part 4: Recommendations & Next Steps</b>
+- <b>Part 3: Recommendations & Next Steps</b>
   * Suggestions on things to take a look at going forward.
 
 The data I'll be using is spread out across three tables and consists of information on customers, campaigns, and claims.
@@ -53,15 +50,11 @@ You can view the data in greater detail [here](https://github.com/sean-atkinson/
 
 <b>Top hair products for June 2023 </b>
 - Hair Vitamins Trio ($18K) and Hair Growth Supplements ($12K) had highest claim amounts.
-- All other hair products didn't break the $1k mark. This mimicks the pattern for the year where Hair Vitamins Trio ($110k) and Hair Growth Supplements ($90k) are our top performers while Hair and Nail Wellbeing ($3.5K) and Hair Vitamins II ($459) lag behind by quite some distance.
+- All other hair products didn't break the $1k mark. This mimics the pattern for the year where Hair Vitamins Trio ($110k) and Hair Growth Supplements ($90k) are our top performers while Hair and Nail Wellbeing ($3.5K) and Hair Vitamins II ($459) lag behind by quite some distance.
 
 <b>Claims and claim amounts by state in 2023</b>
 - NJ has the most claims (3,964) and has claimed the highest amount ($479K).
 - NJ has led both categories for every year on record.
-
-<b>Christmas Day, 2022, which category had the highest covered amount: Hair supplements, Biotin supplements, or Vitamin B supplements?</b>
-- Hair supplements ($570). Hair supplements were also the most covered item in terms of units (15).
-- No Biotin supplements were covered on that day.
 
 <b>Total customers with a platinum plan, and who signed up in 2023, or customers who signed up in 2022</b>
 - 2,926.
@@ -77,10 +70,6 @@ You can view the data in greater detail [here](https://github.com/sean-atkinson/
 - Charles Black (52)
 - Robert Torres (52)
 - Catherine Obrecht (52)
-
-<b>Overall average percent reimburesement for prdocts that are either hair related and sold in NY or a supplement product</b>
-- 61%.
-- 61% is also the overall average reimbursement rate for all products.
 
 <b>Overall average number of days between claims for customer with more than one claim</b>
 - 258 days.
