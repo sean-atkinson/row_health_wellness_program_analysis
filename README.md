@@ -163,7 +163,11 @@ And here is the query result:
 
 <b>Technical Analysis:</b>
 
-For this section, I used SQL and BigQuery to create a marketing campaign dataset. As part of the data preparation, I created derived columns for metrics that didn't pre-exist within the data (num_signups, signup_rate, cost_per_signup, click_through_rate, and cost per-click). In Excel, I also used calculated fields because of an issue with non-weighted metrics. Additionally, I used Pivot Tables, conditional formatting and statistical analysis to analyze and summarize my insights for the marketing team. 
+For this section, I used SQL and BigQuery to create a marketing campaign dataset. 
+
+As part of the data preparation, I created derived columns for metrics that didn't pre-exist within the data (num_signups, signup_rate, cost_per_signup, click_through_rate, and cost per-click). 
+
+In Excel, I used calculated fields because of an issue with non-weighted metrics. Additionally, I utilized Pivot Tables, conditional formatting and statistical analysis to analyze and summarize my insights for the marketing team. 
 
 Here is an example of the pivot table used for customer acquisition insights:
 
