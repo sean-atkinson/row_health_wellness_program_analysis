@@ -122,7 +122,7 @@ And here is the query result:
 <b>Signup rates (ratio of signups to impressions)</b>
 - Health For All  is the best performing campaign category with a 2.08% signup rate. This is largely due to our Email efforts which by themselves have a signup rate of 3.72%. 
 - There's a considerable variation in signup rates across different categories. While Health For All has the highest signup rate at 2.08%, Golden Years Security has the lowest signup rate at a mere 0.001%.
-- Social media is been our best performing platform with a 0.23% signup rate, Email follows closely at 0.20%.
+- Social media is our best performing platform with a 0.23% signup rate, Email follows closely at 0.20%.
 
 <b>Cost per signup (ratio of cost to signups)</b>
 - #CoverMatters is the campaign category with the lowest cost per signup ($0.65). Health for All ($1.23) is second. Golden Years Security has the highest cost per signup at $176.73.
@@ -136,7 +136,7 @@ And here is the query result:
 
 <b>Click-through-rate (ratio of click to impressions)</b>
 - In terms of platforms, Email performs the best with a 16.71% click-through-rate (CTR), 94% higher than the next closest platform (Social Media at 8.62%). TV has a 0% CTR.
-- The Family Coverage Plan category has a CTR of 0%, indicating no clicks, despite 1.1M impressions. This is something that needs to be looked into further.
+- The Family Coverage Plan category has a CTR of 0%, indicating no clicks, despite 1.1M impressions. This is something that needs to be looked into further, since it's highly unusual.
 
 <b>Impressions (total times an ad is viewed)</b>
 - Tailored Health Plans, #HealthyLiving, Preventive Care News and Family Coverage Plan are the only campaign categories to surpass 1M impressions.
