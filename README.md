@@ -5,8 +5,7 @@
 [Project Summary](#section_1)<br>
 [Part 1: Targeted Insights (SQL)](#section_2)<br>
 [Part 2: Marketing Analysis (Excel)](#section_3)<br>
-[Part 3: TBD](#section_4)<br>
-[Part 4: Recommendations & Next Steps](#section_5)<br>
+[Part 3: Recommendations & Next Steps](#section_5)<br>
 [Addendum: Notes on the Marketing Campaign Analysis](#section_6)<br>
 
 <a id='section_1'></a>
