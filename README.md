@@ -179,8 +179,7 @@ You can find the SQL code for the dataset I created in BigQuery [here](https://g
 <a id='section_5'></a>
 # Addendum: Notes on the Marketing Campaign Analysis
 [(Back to table of contents)](#table_of_contents)<br><br>
-Addendum: Notes on the Marketing Campaign Analysis
-(Back to table of contents)  With regards to the marketing campaign analysis, please note that the 24 most recent campaigns have incomplete data. They're currently missing total signups, signup rate, and cost per signup. 
+With regards to the marketing campaign analysis, please note that the 24 most recent campaigns have incomplete data. They're currently missing total signups, signup rate, and cost per signup. 
 
 Consequently, that means only 33 of the 57 campaigns have complete data. 
 
