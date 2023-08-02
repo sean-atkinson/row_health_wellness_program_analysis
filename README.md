@@ -151,8 +151,7 @@ And here is the query result:
 - For campaigns that have recorded at least one click, email is our best platform with a cost-per-click (CPC) of $0.05, social media is next at $0.06.
 - SEO and TV are our worse. SEO has a CPC of $0.09. TV has not recorded a single click. 
 
-<b>Technical Analysis:</b>
-
+<b>Technical Analysis:</b><br>
 For this section, I used SQL and BigQuery to create a marketing campaign dataset. 
 
 As part of the data preparation, I created derived columns for metrics that didn't pre-exist within the data (num_signups, signup_rate, cost_per_signup, click_through_rate, and cost per-click). 
