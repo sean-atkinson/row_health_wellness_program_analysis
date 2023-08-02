@@ -21,7 +21,7 @@ In this project, I take on the role of a data analyst within the patient researc
 
 This project consists of four parts:
 - <b>Part 1: Targeted Insights</b>
-  * Using SQL, I offer up answers to questions from the claims department on things like the top hair-related products, states with the most claims, and the most frequent users of our reimbursement program.
+  * Using SQL, I offer up answers to questions from the Claims Department on things like the top hair-related products, states with the most claims, and the most frequent users of our reimbursement program.
  
 - <b>Part 2: Marketing Analysis</b>
   * Leveraging Excel, I assess campaign performance for our marketing team, focusing on customer acquisition and brand awareness, by selecting three metrics of interest for each.
