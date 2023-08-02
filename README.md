@@ -119,32 +119,32 @@ And here is the query result:
 
 <b>CUSTOMER ACQUISITION</b>
 
-<b>Signup rates</b>
+<b>Signup rates (ratio of signups to impressions)</b>
 - Health For All  is the best performing campaign category with a 2.08% signup rate. This is largely due to our Email efforts which by themselves have a signup rate of 3.72%. 
 - There's a considerable variation in signup rates across different categories. While Health For All has the highest signup rate at 2.08%, Golden Years Security has the lowest signup rate at a mere 0.001%.
 - Social media is been our best performing platform with a 0.23% signup rate, Email follows closely at 0.20%.
 
-<b>Cost per signup</b>
+<b>Cost per signup (ratio of cost to signups)</b>
 - #CoverMatters is the campaign category with the lowest cost per signup ($0.65). Health for All ($1.23) is second. Golden Years Security has the highest cost per signup at $176.73.
 - Social Media ($2.25) and Email ($4.04) are our best platforms. TV is by far our worse, with a cost per signup that was 366% higher than social media’s.
 
-<b>Signups by channel</b>
+<b>Signups by channel (new users per platform)</b>
 - Social media, with 7,610 signups, brought in 85% more than Email, which was the second most.
 - TV is the platform with the least number of total signups, only managing to bring in 494 signups. This, coupled with its high cost per signup ($10.48) and low signup rate (0.08%), suggests that TV is the least effective platform for customer acquisition.<br> 
 
 <b>BRAND AWARENESS</b>
 
-<b>Click-through-rate (CTR)</b>
-- In terms of platforms, Email performs the best at 16.71%, 94% higher than the next closest platform (Social Media at 8.62%). TV has a 0% CTR.
+<b>Click-through-rate (ratio of click to impressions)</b>
+- In terms of platforms, Email performs the best with a 16.71% click-through-rate (CTR), 94% higher than the next closest platform (Social Media at 8.62%). TV has a 0% CTR.
 - The Family Coverage Plan category has a CTR of 0%, indicating no clicks, despite 1.1M impressions. This is something that needs to be looked into further.
 
-<b>Impressions</b>
+<b>Impressions (total times an ad is viewed)</b>
 - Tailored Health Plans, #HealthyLiving, Preventive Care News and Family Coverage Plan are the only campaign categories to surpass 1M impressions.
 - Health for All has the lowest total impressions of any campaign category (170K), yet has only 182 fewer signups than our best performing campaign category.
 - Social Media and SEO have been our best channels for impression at 3.3M AND 3.2M respectively. TV lags behind everyone with 600K.
 
-<b>Cost-per-click (CPC)</b>
-- For campaigns that have recorded at least one click, email is our best platform with a cost per click of $0.05, social media is next at $0.06.
+<b>Cost-per-click (ratio of cost to clicks)</b>
+- For campaigns that have recorded at least one click, email is our best platform with a cost-per-click (CPC) of $0.05, social media is next at $0.06.
 - SEO and TV are our worse. SEO has a CPC of $0.09. TV has not recorded a single click. 
 
 <b>Technical Analysis:</b>
@@ -178,4 +178,4 @@ You can find the SQL code for the dataset I created in BigQuery [here](https://g
 <a id='section_5'></a>
 # Addendum: Notes on the Marketing Campaign Analysis
 [(Back to table of contents)](#table_of_contents)<br><br>
-With regards to the marketing campaign analysis, please note that the 24 most recent campaigns had incomplete data. They're currently missing total signups, signup rate, and cost per signup. Consequently that means only 33 of the 57 campaigns have complete data and that may have skewed the analysis.
+With regards to the marketing campaign analysis, please note that the 24 most recent campaigns have incomplete data. They're currently missing total signups, signup rate, and cost per signup. Consequently, that means only 33 of the 57 campaigns have complete data. Given that the missing data did not prevent meaningful analysis due to the availability of complete records for over half of the campaigns, I proceeded with the data available. However, I kept the potential bias in mind during my analysis and acknolwedge my insights and recommendations may have been skewed as a result.
