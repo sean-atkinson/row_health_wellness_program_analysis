@@ -108,9 +108,8 @@ GROUP BY 1
 ORDER BY 2 DESC;
 ```
 
-And here is the query result:
-
-<img width="750" alt="SQL query result" src="https://imgur.com/Xr54XHI.png">
+And here is the query result:<br>
+![SQL query result](https://imgur.com/Xr54XHI.png)
 
 <br>
 
