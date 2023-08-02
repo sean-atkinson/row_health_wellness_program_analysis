@@ -125,7 +125,7 @@ And here is the query result:<br>
 <b>CUSTOMER ACQUISITION</b>
 
 <b>Signup rates (ratio of signups to impressions)</b>
-- Health For All  is the best performing campaign category with a 2.08% signup rate. This is largely due to our Email efforts which by themselves have a signup rate of 3.72%. 
+- With a standout signup rate of 2.08%, Health For All has proven to be our top-performing campaign category, largely driven by our effective email initiatives, which have achieved a 3.72% signup rate within the campaign. 
 - There's a considerable variation in signup rates across different categories. While Health For All has the highest signup rate at 2.08%, Golden Years Security has the lowest signup rate at a mere 0.001%.
 - Social media is our best performing platform with a 0.23% signup rate, Email follows closely at 0.20%.
 
