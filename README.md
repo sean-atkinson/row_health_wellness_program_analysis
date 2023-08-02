@@ -8,7 +8,7 @@ You can find more detailed analysis in [this downloadable Excel workbook](https:
 <a id='table_of_contents'></a><br>
 [Project Summary](#section_1)<br>
 [Part 1: Targeted Insights (SQL)](#section_2)<br>
-[Part 2: Marketing Analysis (Excel)](#section_3)<br>
+[Part 2: Marketing Campaign Analysis (Excel)](#section_3)<br>
 [Part 3: Recommendations & Next Steps](#section_4)<br>
 [Addendum: Notes on the Marketing Campaign Analysis](#section_5)<br>
 
@@ -115,7 +115,7 @@ And here is the query result:
 <br>
 
 <a id='section_3'></a>
-# Part 2: Marketing Analysis (Excel)
+# Part 2: Marketing Campaign Analysis (Excel)
 [(Back to table of contents)](#table_of_contents)<br><br>
 
 <b>SUMMARY:</b>
