@@ -137,7 +137,7 @@ And here is the query result:<br>
 
 <b>BRAND AWARENESS</b>
 
-<b>Click-through-rate (ratio of click to impressions)</b>
+<b>Click-through-rate (ratio of clicks to impressions)</b>
 - In terms of platforms, Email performs the best with a 16.71% click-through-rate (CTR), 94% higher than the next closest platform (Social Media at 8.62%). TV has a 0% CTR.
 - The Family Coverage Plan category has a CTR of 0%, indicating no clicks, despite 1.1M impressions. This is something that needs to be looked into further, since it's highly unusual.
 
