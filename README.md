@@ -1,6 +1,6 @@
 # Row Health Wellness Program Analysis: 2019-2023
 
-<img width="750" alt="Excel pivot table showing click-through-rates, impressions, and cost-per-click on the campaign category and channel level" src="https://imgur.com/7jrD8qU.png">
+<img width="750" alt="Excel pivot table showing click-through-rates, impressions, and cost-per-click on the campaign category and channel level" src="https://imgur.com/CNtBm4u.png">
 
 You can find more detailed analysis in [this downloadable Excel workbook](https://github.com/sean-atkinson/row_health_wellness_program_analysis/blob/main/excel/row_health_marketing_workbook.xlsx).
 
@@ -160,7 +160,7 @@ In Excel, I used calculated fields because of an issue with non-weighted metrics
 
 Here is an example of the pivot table used for customer acquisition insights:
 
-<img width="750" alt="Excel pivot table showing signup rates, cost per signup, total and total signups on the campaign category and channel level" src="https://imgur.com/7jrD8qU.png">
+<img width="750" alt="Excel pivot table showing signup rates, cost per signup, total and total signups on the campaign category and channel level" src="https://imgur.com/CNtBm4u.png">
 
 You can find more detailed analysis in [this downloadable Excel workbook](https://github.com/sean-atkinson/row_health_wellness_program_analysis/blob/main/excel/row_health_marketing_workbook.xlsx).
 
