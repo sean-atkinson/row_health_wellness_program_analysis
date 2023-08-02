@@ -95,9 +95,31 @@ For this analysis, I used SQL and BigQuery. In regards to SQL, I used aggregatio
 
 You can find my SQL queries for the above and other insights [here](https://github.com/sean-atkinson/row_health_wellness_program_analysis/blob/main/sql/claims_department_queries.sql).
 
-Here is an example of the query result I got to identify the most often purchased second product for customers who've made more than one purchase (with the help of the qualify clause):
+Here is an example of me using the QUALIFY clause:
+```sql
+-- identifying the most commonly ordered second product for customers who have made more than one claim
+-- cte to filter customers with more than one claim
+WITH customers_multiple_orders AS (
+  SELECT *
+  FROM `psychic-raceway-393323.rowhealth.claims` claims
+  LEFT JOIN `psychic-raceway-393323.rowhealth.customers` customers
+  ON claims.customer_id = customers.customer_id 
+  QUALIFY ROW_NUMBER() OVER (PARTITION BY claims.customer_id ORDER BY claim_date) = 2
+  ORDER BY 1
+)
+
+-- main query to calculate the number of claims for each product name 
+SELECT product_name, 
+  COUNT(DISTINCT claim_id) AS num_claims
+FROM customers_multiple_orders
+GROUP BY 1
+ORDER BY 2 DESC;;
+```
+
+And here is the query result:
 
 <img width="750" alt="SQL query result" src="https://imgur.com/Xr54XHI.png">
+
 <br>
 
 <a id='section_3'></a>
