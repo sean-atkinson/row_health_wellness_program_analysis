@@ -178,4 +178,10 @@ You can find the SQL code for the dataset I created in BigQuery [here](https://g
 <a id='section_5'></a>
 # Addendum: Notes on the Marketing Campaign Analysis
 [(Back to table of contents)](#table_of_contents)<br><br>
-With regards to the marketing campaign analysis, please note that the 24 most recent campaigns have incomplete data. They're currently missing total signups, signup rate, and cost per signup. Consequently, that means only 33 of the 57 campaigns have complete data. Given that the missing data did not prevent meaningful analysis due to the availability of complete records for over half of the campaigns, I proceeded with the data available. However, I kept the potential bias in mind during my analysis and acknowledge my insights and recommendations may have been skewed as a result.
+With regards to the marketing campaign analysis, it's important to note that the 24 most recent campaigns have incomplete data. They're currently missing total signups, signup rate, and cost per signup. 
+
+Consequently, that means complete data is only available for 33 of the 57 campaigns. 
+
+Despite this challenge, I proceeded with the analysis using the available data, as it represented over half of the campaigns. I did, however, keep the potential bias in mind throughout my analysis, acknowledging that my insights and recommendations may be affected by the lack of full data.
+
+For future scenarios, we could mitigate the impact of such missing data by considering several approaches. These include data imputation methods (based on past performance of similar campaigns or through the use of mean/median/mode imputation), implementing more stringent data recording procedures to prevent missing data, and applying predictive modelling to estimate missing values.
