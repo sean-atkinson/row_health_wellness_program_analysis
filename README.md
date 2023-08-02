@@ -141,24 +141,22 @@ And here is the query result:
 
 <b>Signups by channel</b>
 - Social media, with 7,610 signups, brought in 85% more than Email, which was the second most.
-- Email and SEO are quite close in terms of total signups, with 4,130 and 4,055 signups respectively.
 - TV is the platform with the least number of total signups, only managing to bring in 494 signups. This, coupled with its high cost per signup ($10.48) and low signup rate (0.08%), suggests that TV is the least effective platform for customer acquisition.<br> 
 
 <b>BRAND AWARENESS</b>
 
 <b>Click-through-rate (CTR)</b>
-- Health for All is the campaign category with the highest CTR at 25.48%. Again, email is doing the heavy lifting here with a click through rate of 49.26%.
-- In terms of platforms, email perform the best at 16.71%, 94% higher than the next closest platform (Social Media at 8.62%). TV has a 0% CTR.
+- In terms of platforms, Email performs the best at 16.71%, 94% higher than the next closest platform (Social Media at 8.62%). TV has a 0% CTR.
 - The Family Coverage Plan category has a CTR of 0%, indicating no clicks, despite 1.1M impressions. This is something that needs to be looked into further.
 
 <b>Impressions</b>
 - Tailored Health Plans, #HealthyLiving, Preventive Care News and Family Coverage Plan are the only campaign categories to surpass 1M impressions.
-- Health for All has the lowest total impressions of any campaign category (170K). This is quite interesting because it only has 182 less signups than our best performing campaign category for signups.
+- Health for All has the lowest total impressions of any campaign category (170K), yet has only 182 fewer signups than our best performing campaign category.
 - Social Media and SEO have been our best channels for impression at 3.3M AND 3.2M respectively. TV lags behind everyone with 600K.
 
 <b>Cost-per-click (CPC)</b>
 - For campaigns that have recorded at least one click, email is our best platform with a cost per click of $0.05, social media is next at $0.06.
-- TV and SEO are our worse. TV has not recorded a single click. SEO has a CPC of $0.09.
+- SEO and TV are our worse. SEO has a CPC of $0.09. TV has not recorded a single click. 
 
 <b>Technical Analysis:</b>
 
