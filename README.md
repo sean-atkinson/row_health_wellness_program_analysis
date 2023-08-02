@@ -141,7 +141,7 @@ And here is the query result:<br>
 - In terms of platforms, Email performs the best with a 16.71% click-through-rate (CTR), 94% higher than the next closest platform (Social Media at 8.62%). TV has a 0% CTR.
 - The Family Coverage Plan category has a CTR of 0%, indicating no clicks, despite 1.1M impressions. This is something that needs to be looked into further, since it's highly unusual.
 
-<b>Impressions (total times an ad is viewed)</b>
+<b>Impressions (total times an ad or promotional content is viewed)</b>
 - Tailored Health Plans, #HealthyLiving, Preventive Care News and Family Coverage Plan are the only campaign categories to surpass 1M impressions.
 - Health for All has the lowest total impressions of any campaign category (170K), yet has only 182 fewer signups than our best performing campaign category.
 - Social Media and SEO have been our best channels for impression at 3.3M AND 3.2M respectively. TV lags behind everyone with 600K.
