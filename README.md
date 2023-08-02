@@ -11,7 +11,7 @@
 <a id='section_1'></a>
 # Project Summary
 
-> <i>Modeled after [Ro](https://ro.co/weight-loss/), a modern direct-to-patient healthcare company</i>
+> <i>Modeled after [Ro](https://ro.co/weight-loss/), a modern direct-to-patient healthcare company.</i>
 
 Established in 2016, Row Health is a cutting-edge insurance company that serves over 100,000 customers across the United States.
 
@@ -19,7 +19,7 @@ In 2019, they introduced the Wellness Reimbursement program. This initiative off
 
 In this project, I take on the role of a data analyst within the patient research team, whose priority is to understand the performance of this reimbursement program to answer ad-hoc questions and surface recommendations to the product and marketing teams towards their goals of acquiring customers and increasing brand awareness.
 
-This project consists of four parts:
+This project consists of three parts:
 - <b>Part 1: Targeted Insights</b>
   * Using SQL, I offer up answers to questions from the Claims Department on things like the top hair-related products, states with the most claims, and the most frequent users of our reimbursement program.
  
