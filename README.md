@@ -105,7 +105,7 @@ SELECT product_name,
   COUNT(DISTINCT claim_id) AS num_claims
 FROM customers_multiple_orders
 GROUP BY 1
-ORDER BY 2 DESC;;
+ORDER BY 2 DESC;
 ```
 
 And here is the query result:
