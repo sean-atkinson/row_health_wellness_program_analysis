@@ -41,7 +41,7 @@ Here is the Entity Relationship Diagram for the data I'll be using:
 
 You can view the data in greater detail [here](https://github.com/sean-atkinson/row_health_wellness_program_analysis/tree/main/data).
 
-Also, a presentation about the main findings of this project can be found [here](https://github.com/sean-atkinson/row_health_wellness_program_analysis/blob/main/presentation/row_health_presentation.pdf).
+Also, a presentation on the main findings of this project can be found [here](https://github.com/sean-atkinson/row_health_wellness_program_analysis/blob/main/presentation/row_health_presentation.pdf).
 <br>
 
 <a id='section_2'></a>
