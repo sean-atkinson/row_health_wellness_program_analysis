@@ -188,7 +188,7 @@ You can find the SQL code for the dataset I created in BigQuery [here](https://g
 - TV is not only the platform we spend the least on; its total spend is less than 1/3rd of the next closest platform.
 
 <b>Technical Analysis:</b><br>
-For this section, I used u exclusively to create two dashboards: one for customer acquisition and one for brand awareness. My data came from the marketing campaign dataset I created for my Excel analysis.
+For this section, I used Tableau exclusively to create two dashboards: one for customer acquisition and one for brand awareness. My data came from the marketing campaign dataset I created for my Excel analysis.
 
 My u dashboards incorporate KPIs, filters, bar charts, stacked bar charts, dot plots, a treemap, a bubble chart, and a box-and-whisker plot.
 
