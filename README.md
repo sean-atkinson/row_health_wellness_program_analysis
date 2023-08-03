@@ -45,7 +45,7 @@ Here is the Entity Relationship Diagram for the data I'll be using:
 
 <img width="750" alt="image" src="https://imgur.com/PvUzVJm.png">
 
-You can view the data in greater detail [here](https://github.com/sean-atkinson/row_health_wellness_program_analysis/tree/main/data).
+Yocan view the data in greater detail [here](https://github.com/sean-atkinson/row_health_wellness_program_analysis/tree/main/data).
 
 Also, a presentation on the main findings of this project can be found [here](https://github.com/sean-atkinson/row_health_wellness_program_analysis/blob/main/presentation/row_health_presentation.pdf).
 <br>
@@ -93,7 +93,7 @@ Also, a presentation on the main findings of this project can be found [here](ht
 <b>Technical Analysis:</b><br>
 For this analysis, I used SQL and BigQuery. In regards to SQL, I used aggregation functions, window functions, joins, filtering, common table expressions (CTEs), and the QUALIFY clause to use row_number() to filter results.
 
-You can find my SQL queries for the above and other insights [here](https://github.com/sean-atkinson/row_health_wellness_program_analysis/blob/main/sql/claims_department_queries.sql).
+Yocan find my SQL queries for the above and other insights [here](https://github.com/sean-atkinson/row_health_wellness_program_analysis/blob/main/sql/claims_department_queries.sql).
 
 Here is an example of me using the QUALIFY clause:
 ```sql
@@ -190,7 +190,7 @@ You can find the SQL code for the dataset I created in BigQuery [here](https://g
 <b>Technical Analysis:</b><br>
 For this section, I used Tableau exclusively to create two dashboards: one for customer acquisition and one for brand awareness. My data came from the marketing campaign dataset I created for my Excel analysis.
 
-My u dashboards incorporate KPIs, filters, bar charts, stacked bar charts, dot plots, a treemap, a bubble chart, and a box-and-whisker plot.
+My Tableau dashboards incorporate KPIs, filters, bar charts, stacked bar charts, dot plots, a treemap, a bubble chart, and a box-and-whisker plot.
 
 Here is a peek of what one of my dashboards looks like:
 
