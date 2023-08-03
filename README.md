@@ -191,7 +191,11 @@ For this section, I used Tableau exclusively to create two dashboards: one for c
 
 My Tableau dashboards incorporate KPIs, filters, bar charts, stacked bar charts, dot plots, a treemap, a bubble chart, and a box-and-whisker plot.
 
-Here is a peek of what the Tableau dashboard for this part of my analysis looks like:
+Here is a peek of what one of my dashboards looks like:
+
+<img width="750" alt="Tableau dashboard showing brand awareness metrics" src="https://imgur.com/bnGd8c8.png">
+
+An interactive version of the above Tableau dashboard can be found [here](https://public.tableau.com/app/profile/sean.atkinson/viz/row_health_dashboards/BrandAwarenessDashboard).
 
 <br>
 
