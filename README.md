@@ -197,6 +197,8 @@ Here is a peek of what one of my dashboards looks like:
 
 An interactive version of the above Tableau dashboard can be found [here](https://public.tableau.com/app/profile/sean.atkinson/viz/row_health_dashboards/BrandAwarenessDashboard).
 
+A copy of my Tableau workbook can be found [here](https://github.com/sean-atkinson/row_health_wellness_program_analysis/tree/main/tableau).
+
 <br>
 
 <a id='section_5'></a>
