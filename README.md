@@ -93,7 +93,7 @@ Also, a presentation on the main findings of this project can be found [here](ht
 <b>Technical Analysis:</b><br>
 For this analysis, I used SQL and BigQuery. In regards to SQL, I used aggregation functions, window functions, joins, filtering, common table expressions (CTEs), and the QUALIFY clause to use row_number() to filter results.
 
-Yocan find my SQL queries for the above and other insights [here](https://github.com/sean-atkinson/row_health_wellness_program_analysis/blob/main/sql/claims_department_queries.sql).
+You can find my SQL queries for the above and other insights [here](https://github.com/sean-atkinson/row_health_wellness_program_analysis/blob/main/sql/claims_department_queries.sql).
 
 Here is an example of me using the QUALIFY clause:
 ```sql
@@ -135,7 +135,7 @@ And here is the query result:<br>
 
 <b>Cost per signup (ratio of cost to signups)</b>
 - #CoverMatters is the campaign category with the lowest cost per signup ($0.65). Health for All ($1.23) is second. Golden Years Security has the highest cost per signup at $176.73.
-- Social Media ($2.25) and Email ($4.04) are our best platforms. TV is by far our worse, with a cost per signup that was 366% higher than social media’s.
+- Social Media ($2.25) and Email ($4.04) are our best platforms. TV is by far our worst, with a cost per signup that was 366% higher than social media’s.
 
 <b>Signups by channel (new users per platform)</b>
 - Social media, with 7,610 signups, brought in 85% more than Email, which was the second most.
@@ -154,7 +154,7 @@ And here is the query result:<br>
 
 <b>Cost-per-click (ratio of cost to clicks)</b>
 - For campaigns that have recorded at least one click, email is our best platform with a cost-per-click (CPC) of $0.05, social media is next at $0.06.
-- SEO and TV are our worse. SEO has a CPC of $0.09. TV has not recorded a single click. 
+- SEO and TV are our worst. SEO has a CPC of $0.09. TV has not recorded a single click. 
 
 <b>Technical Analysis:</b><br>
 For this section, I used SQL and BigQuery to create a marketing campaign dataset. 
@@ -206,7 +206,7 @@ A copy of my Tableau workbook can be found [here](https://github.com/sean-atkins
 [(Back to table of contents)](#table_of_contents)<br><br>
 - <b>Prioritize High-Performing Campaigns and Platforms:</b> Given the strong performance of the 'Health For All' campaign and email marketing efforts, consider increasing the budget for these initiatives by 15-20% (a percentage high enough to see results, but low enough in terms of spend, $3.3K on the high end to be sufficiently cautious). Keep monitoring KPIs to ensure they campaigns continue to have strong ROI.
 - <b>Think About Leveraging Social Media for Customer Acquisition and Brand Awareness:</b> Social media has demonstrated strong performance in several metrics.  That being said, [we’re in tumultuous time when it come to social media marketing](https://econsultancy.com/social-media-advertising-2023-trends-predictions/?ssp=1&setlang=en-CA&safesearch=moderate). Perhaps caution is the better part of valour here. It might be best to experiment with increasing social media budget by 10% for the next quarter while closely monitoring customer acquisition and brand awareness metrics.
-- <b>Re-evaluate Low-Performing Strategies:</b> TV has shown poor performance on every metric examined. Reduce its budget by 25% next quarter. Reallocate those resources to high-performing channels Email and Social Media. While it’s a significant decrease, it’s not the complete abandonment of this channel. We can re-evaluate at the end of the quarter.
+- <b>Reevaluate Low-Performing Strategies:</b> TV has shown poor performance on every metric examined. Reduce its budget by 25% next quarter. Reallocate those resources to high-performing channels Email and Social Media. While it’s a significant decrease, it’s not the complete abandonment of this channel. We can re-evaluate at the end of the quarter.
 - <b>Expand Email Marketing for Engagement:</b> Experiment with A/B testing by sending half of the target group 15-20% more emails for 30 days (a modest increase but enough to produce a noticeable result if there is an impact). Compare customer acquisition and brand awareness metrics at the end of the test.
 - <b>Get to the Bottom of What’s Going with the Family Coverage Plan Category:</b> It defies all logic that it can have over 1M impressions and not a single click. I strongly suspect there’s something wrong with the event tracking for this category. Have our developers take a closer look at it.
 - <b> Improve Data Quality and Include Other Dimensions:</b> Add revenue to calculate ROI. Add customer-specific dimensions (plan, state, signup platform) to better customize campaign recommendations. Investigate how run time affects KPIs.
