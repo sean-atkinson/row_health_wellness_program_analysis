@@ -26,7 +26,7 @@ In 2019, they introduced the Wellness Reimbursement program. This initiative off
 
 In this project, I take on the role of a data analyst within the patient research team, whose priority is to understand the performance of this reimbursement program to answer ad-hoc questions and surface recommendations to the product and marketing teams towards their goals of acquiring customers and increasing brand awareness.
 
-This project consists of three parts:
+This project consists of four parts:
 - <b>Part 1: Targeted Insights</b>
   * Using SQL, I offer answers to questions from the Claims department regarding things like the top hair-related products, states with the most claims, and the most frequent users of our reimbursement program.
  
