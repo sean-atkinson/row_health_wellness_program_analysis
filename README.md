@@ -9,8 +9,9 @@ You can find more detailed analysis in [this downloadable Excel workbook](https:
 [Project Summary](#section_1)<br>
 [Part 1: Targeted Insights (SQL)](#section_2)<br>
 [Part 2: Marketing Campaign Analysis (Excel)](#section_3)<br>
-[Part 3: Recommendations & Next Steps](#section_4)<br>
-[Addendum: Notes on the Marketing Campaign Analysis](#section_5)<br>
+[Part 3: Visualizations (Tableau)](#section_4)<br>
+[Part 4: Recommendations & Next Steps](#section_5)
+[Addendum: Notes on the Marketing Campaign Analysis](#section_6)<br>
 
 <a id='section_1'></a>
 # Project Summary
@@ -25,12 +26,15 @@ In this project, I take on the role of a data analyst within the patient researc
 
 This project consists of three parts:
 - <b>Part 1: Targeted Insights</b>
-  * Using SQL, I offer up answers to questions from the Claims Department on things like the top hair-related products, states with the most claims, and the most frequent users of our reimbursement program.
+  * Using SQL, I offer answers to questions from the Claims department regarding things like the top hair-related products, states with the most claims, and the most frequent users of our reimbursement program.
  
 - <b>Part 2: Marketing Campaign Analysis</b>
   * Leveraging Excel, I assess campaign performance for our marketing team, focusing on customer acquisition and brand awareness, by selecting three metrics of interest for each.
 
-- <b>Part 3: Recommendations & Next Steps</b>
+- <b>Part 3: Visualizations</b>
+  * With the aid of Tableau, I create dashboards for the Marketing department to monitor customer acquisition and brand awareness metrics on an ongoing basis.
+
+- <b>Part 4: Recommendations & Next Steps</b>
   * Suggestions on things to take a look at going forward.
 
 The data I'll be using is spread out across three tables and consists of information on customers, campaigns, and claims.
@@ -121,7 +125,6 @@ And here is the query result:<br>
 
 <b>SUMMARY:</b>
 
-
 <b>CUSTOMER ACQUISITION</b>
 
 <b>Signup rates (ratio of signups to impressions)</b>
@@ -155,7 +158,7 @@ And here is the query result:<br>
 <b>Technical Analysis:</b><br>
 For this section, I used SQL and BigQuery to create a marketing campaign dataset. 
 
-As part of the data preparation, I created derived columns for metrics that didn't pre-exist within the data (num_signups, signup_rate, cost_per_signup, click_through_rate, and cost per-click). 
+As part of the data preparation, I created derived columns for metrics that didn't pre-exist within the data: number of signups, signup rate, cost-per-signup, click-through rate, and cost-per-click.
 
 In Excel, I used calculated fields because of an issue with non-weighted metrics. Additionally, I utilized Pivot Tables, conditional formatting and statistical analysis to analyze and summarize my insights for the marketing team. 
 
@@ -166,11 +169,34 @@ Here is an example of the pivot table used for customer acquisition insights:
 You can find more detailed analysis in [this downloadable Excel workbook](https://github.com/sean-atkinson/row_health_wellness_program_analysis/blob/main/excel/row_health_marketing_workbook.xlsx).
 
 You can find the SQL code for the dataset I created in BigQuery [here](https://github.com/sean-atkinson/row_health_wellness_program_analysis/blob/main/sql/marketing_campaigns_table.sql).
+<br>
+
+<a id='section_5'></a>
+# Part 3: Part 3: Visualizations (Tableau)
+[(Back to table of contents)](#table_of_contents)<br><br>
+
+<b>SUMMARY:</b>
+
+<b>Impressions specifically</b>
+- The majority of campaign categories are platform exclusive. Family Coverage Plan (3), Golden Years Security (2), and Health For All (2) were the only categories to use more than one channel.
+
+<b>Cost, click-through-rate, and impressions together</b>
+- The Compare Health Coverage category has the highest total cost among all categories. Despite this investment, its average click-through rate is moderate in comparison.
+- On the other hand, Affordable Plans is the category with the lowest total cost and is in the bottom third for total impressions. Still, its click-through rate is higher than more than half of our categories.
+- Golden Years Security is the category with the lowest CTR among categories with more than one click, despite a moderate number of impressions and total spend. This suggests a lack of engaging content, poor targeting, or, more likely, given the campaign name and its use of TV, an audience that's less active online.
+- TV is not only the platform we spend the least on; its total spend is less than 1/3rd of the next closest platform.
+
+<b>Technical Analysis:</b><br>
+For this section, I used Tableau exclusively to create two dashboards: one for customer acquisition and one for brand awareness. My data came from the marketing campaign dataset I created for my Excel analysis.
+
+My Tableau dashboards incorporate KPIs, filters, bar charts, stacked bar charts, dot plots, a treemap, a bubble chart, and a box-and-whisker plot.
+
+Here is a peek of what the Tableau dashboard for this part of my analysis looks like:
 
 <br>
 
-<a id='section_4'></a>
-# Part 3: Recommendations & Next Steps
+<a id='section_5'></a>
+# Part 4: Recommendations & Next Steps
 [(Back to table of contents)](#table_of_contents)<br><br>
 - <b>Prioritize High-Performing Campaigns and Platforms:</b> Given the strong performance of the 'Health For All' campaign and email marketing efforts, consider increasing the budget for these initiatives by 15-20% (a percentage high enough to see results, but low enough in terms of spend, $3.3K on the high end to be sufficiently cautious). Keep monitoring KPIs to ensure they campaigns continue to have strong ROI.
 - <b>Think About Leveraging Social Media for Customer Acquisition and Brand Awareness:</b> Social media has demonstrated strong performance in several metrics.  That being said, [we’re in tumultuous time when it come to social media marketing](https://econsultancy.com/social-media-advertising-2023-trends-predictions/?ssp=1&setlang=en-CA&safesearch=moderate). Perhaps caution is the better part of valour here. It might be best to experiment with increasing social media budget by 10% for the next quarter while closely monitoring customer acquisition and brand awareness metrics.
@@ -180,7 +206,7 @@ You can find the SQL code for the dataset I created in BigQuery [here](https://g
 - <b> Improve Data Quality and Include Other Dimensions:</b> Add revenue to calculate ROI. Add customer-specific dimensions (plan, state, signup platform) to better customize campaign recommendations. Investigate how run time affects KPIs.
 <br>
 
-<a id='section_5'></a>
+<a id='section_6'></a>
 # Addendum: Notes on the Marketing Campaign Analysis
 [(Back to table of contents)](#table_of_contents)<br><br>
 With regards to the marketing campaign analysis, please note that the 24 most recent campaigns have incomplete data. They're currently missing total signups, signup rate, and cost per signup. 
