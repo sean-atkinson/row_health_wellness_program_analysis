@@ -1,8 +1,10 @@
 # Row Health Wellness Program Analysis: 2019-2023
 
-<img width="750" alt="Excel pivot table showing click-through-rates, impressions, and cost-per-click on the campaign category and channel level" src="https://imgur.com/CNtBm4u.png">
+<img width="750" alt="A Tableau dashboard showing brand awareness metrics" src="https://imgur.com/bnGd8c8.png">
 
-You can find more detailed analysis in [this downloadable Excel workbook](https://github.com/sean-atkinson/row_health_wellness_program_analysis/blob/main/excel/row_health_marketing_workbook.xlsx).
+Analyzing Row Health brand awareness metrics from 2019-2023. 
+
+An interactive Tableau dashboard can be found [here](https://public.tableau.com/app/profile/sean.atkinson/viz/row_health_dashboards/BrandAwarenessDashboard).
 
 # Table of Contents
 <a id='table_of_contents'></a><br>
@@ -32,7 +34,7 @@ This project consists of three parts:
   * Leveraging Excel, I assess campaign performance for our marketing team, focusing on customer acquisition and brand awareness, by selecting three metrics of interest for each.
 
 - <b>Part 3: Visualizations</b>
-  * With the aid of Tableau, I create dashboards for the Marketing department to monitor customer acquisition and brand awareness metrics on an ongoing basis.
+  * With the aid of u, I create dashboards for the Marketing department to monitor customer acquisition and brand awareness metrics on an ongoing basis.
 
 - <b>Part 4: Recommendations & Next Steps</b>
   * Suggestions on things to take a look at going forward.
@@ -171,8 +173,8 @@ You can find more detailed analysis in [this downloadable Excel workbook](https:
 You can find the SQL code for the dataset I created in BigQuery [here](https://github.com/sean-atkinson/row_health_wellness_program_analysis/blob/main/sql/marketing_campaigns_table.sql).
 <br>
 
-<a id='section_5'></a>
-# Part 3: Part 3: Visualizations (Tableau)
+<a id='section_4'></a>
+# Part 3: Visualizations (Tableau)
 [(Back to table of contents)](#table_of_contents)<br><br>
 
 <b>SUMMARY:</b>
@@ -187,13 +189,13 @@ You can find the SQL code for the dataset I created in BigQuery [here](https://g
 - TV is not only the platform we spend the least on; its total spend is less than 1/3rd of the next closest platform.
 
 <b>Technical Analysis:</b><br>
-For this section, I used Tableau exclusively to create two dashboards: one for customer acquisition and one for brand awareness. My data came from the marketing campaign dataset I created for my Excel analysis.
+For this section, I used u exclusively to create two dashboards: one for customer acquisition and one for brand awareness. My data came from the marketing campaign dataset I created for my Excel analysis.
 
-My Tableau dashboards incorporate KPIs, filters, bar charts, stacked bar charts, dot plots, a treemap, a bubble chart, and a box-and-whisker plot.
+My u dashboards incorporate KPIs, filters, bar charts, stacked bar charts, dot plots, a treemap, a bubble chart, and a box-and-whisker plot.
 
 Here is a peek of what one of my dashboards looks like:
 
-<img width="750" alt="Tableau dashboard showing brand awareness metrics" src="https://imgur.com/bnGd8c8.png">
+<img width="750" alt="A Tableau dashboard showing brand awareness metrics" src="https://imgur.com/bnGd8c8.png">
 
 An interactive version of the above Tableau dashboard can be found [here](https://public.tableau.com/app/profile/sean.atkinson/viz/row_health_dashboards/BrandAwarenessDashboard).
 
