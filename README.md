@@ -163,9 +163,9 @@ As part of the data preparation, I created derived columns for metrics that didn
 
 In Excel, I used calculated fields because of an issue with non-weighted metrics. Additionally, I utilized Pivot Tables, conditional formatting and statistical analysis to analyze and summarize my insights for the marketing team. 
 
-Here is an example of the pivot table used for customer acquisition insights:
+Here are examples of the pivot tables I used for customer acquisition insights:
 
-<img width="750" alt="Excel pivot table showing signup rates, cost per signup, total and total signups on the campaign category and channel level" src="https://imgur.com/wpncY5H.png">
+<img width="750" alt="Excel pivot table showing signup rates, cost per signup, total and total signups on the campaign category and channel level" src="https://imgur.com/DLT1f6g.png">
 
 You can find more detailed analysis in [this downloadable Excel workbook](https://github.com/sean-atkinson/row_health_wellness_program_analysis/blob/main/excel/row_health_marketing_workbook.xlsx).
 
@@ -178,23 +178,18 @@ You can find the SQL code for the dataset I created in BigQuery [here](https://g
 
 <b>SUMMARY:</b>
 
-<b>Impressions specifically</b>
-- The majority of campaign categories are platform exclusive. Family Coverage Plan (3), Golden Years Security (2), and Health For All (2) were the only categories to use more than one channel.
-
-<b>Cost, click-through-rate, and impressions together</b>
-- The Compare Health Coverage category has the highest total cost among all categories. Despite this investment, its average click-through rate is moderate in comparison.
-- On the other hand, Affordable Plans is the category with the lowest total cost and is in the bottom third for total impressions. Still, its click-through rate is higher than more than half of our categories.
-- Golden Years Security is the category with the lowest CTR among categories with more than one click, despite a moderate number of impressions and total spend. This suggests a lack of engaging content, poor targeting, or, more likely, given the campaign name and its use of TV, an audience that's less active online.
-- TV is not only the platform we spend the least on; its total spend is less than 1/3rd of the next closest platform.
+<b>Cost-per-click</b>
+- The two box and whisker plots with the widest spreads within their boxes, Compare Health Plans and Summer Wellness Tips, also did poorly in terms of impressions. This might speak to a lack of data or understanding of the target market, or a lack of understanding of who the target market is.
+- The outlier value for the #InsureYourHealth campaign ($1.35) is so extreme that it should be assessed further. It’s 2,107% more than the Social Media channel average (which is where the campaign ran).
 
 <b>Technical Analysis:</b><br>
-For this section, I used Tableau exclusively to create two dashboards: one for customer acquisition and one for brand awareness. My data came from the marketing campaign dataset I created for my Excel analysis.
+For this section, I used Tableau exclusively to create a brand awareness dashboard. My data came from the marketing campaign dataset I created for my Excel analysis.
 
-My Tableau dashboards incorporate KPIs, filters, bar charts, stacked bar charts, dot plots, a treemap, a bubble chart, and a box-and-whisker plot.
+My Tableau dashboard incorporates KPIs, filters, tables, bar charts, and box-and-whisker plots.
 
-Here is a peek of what one of my dashboards looks like:
+Here is a peek of what my dashboard looks like:
 
-<img width="750" alt="A Tableau dashboard showing brand awareness metrics" src="https://imgur.com/YvEeneL.png">
+<img width="750" alt="A Tableau dashboard showing brand awareness metrics" src="https://imgur.com/wpncY5H.png">
 
 An interactive version of the above Tableau dashboard can be found [here](https://public.tableau.com/app/profile/sean.atkinson/viz/row_health_dashboards/BrandAwarenessDashboard).
 
