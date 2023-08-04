@@ -34,7 +34,7 @@ This project consists of four parts:
   * Leveraging Excel, I assess campaign performance for our marketing team, focusing on customer acquisition and brand awareness, by selecting three metrics of interest for each.
 
 - <b>Part 3: Visualizations</b>
-  * With the aid of Tableau, I create dashboards for the Marketing department to monitor customer acquisition and brand awareness metrics on an ongoing basis.
+  * With the aid of Tableau, I create a dashboard for the Marketing department to monitor brand awareness metrics on an ongoing basis.
 
 - <b>Part 4: Recommendations & Next Steps</b>
   * Suggestions on things to take a look at going forward.
