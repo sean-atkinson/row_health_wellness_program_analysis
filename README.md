@@ -1,6 +1,6 @@
 # Row Health Wellness Program Analysis: 2019-2023
 
-<img width="750" alt="A Tableau dashboard showing brand awareness metrics" src="https://imgur.com/QQoZA90.png">
+<img width="750" alt="A Tableau dashboard showing brand awareness metrics" src="https://imgur.com/YvEeneL.png">
 
 Analyzing Row Health brand awareness metrics from 2019-2023. 
 
@@ -194,7 +194,7 @@ My Tableau dashboards incorporate KPIs, filters, bar charts, stacked bar charts,
 
 Here is a peek of what one of my dashboards looks like:
 
-<img width="750" alt="A Tableau dashboard showing brand awareness metrics" src="https://imgur.com/QQoZA90.png">
+<img width="750" alt="A Tableau dashboard showing brand awareness metrics" src="https://imgur.com/YvEeneL.png">
 
 An interactive version of the above Tableau dashboard can be found [here](https://public.tableau.com/app/profile/sean.atkinson/viz/row_health_dashboards/BrandAwarenessDashboard).
 
