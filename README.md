@@ -1,6 +1,6 @@
 # Row Health Wellness Program Analysis: 2019-2023
 
-<img width="750" alt="A Tableau dashboard showing brand awareness metrics" src="https://imgur.com/YvEeneL.png">
+<img width="750" alt="A Tableau dashboard showing brand awareness metrics" src="https://imgur.com/wpncY5H.png">
 
 Analyzing Row Health brand awareness metrics from 2019-2023. 
 
@@ -165,7 +165,7 @@ In Excel, I used calculated fields because of an issue with non-weighted metrics
 
 Here is an example of the pivot table used for customer acquisition insights:
 
-<img width="750" alt="Excel pivot table showing signup rates, cost per signup, total and total signups on the campaign category and channel level" src="https://imgur.com/CNtBm4u.png">
+<img width="750" alt="Excel pivot table showing signup rates, cost per signup, total and total signups on the campaign category and channel level" src="https://imgur.com/wpncY5H.png">
 
 You can find more detailed analysis in [this downloadable Excel workbook](https://github.com/sean-atkinson/row_health_wellness_program_analysis/blob/main/excel/row_health_marketing_workbook.xlsx).
 
