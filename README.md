@@ -187,7 +187,7 @@ For this section, I used Tableau exclusively to create a brand awareness dashboa
 
 My Tableau dashboard incorporates KPIs, filters, tables, bar charts, and box-and-whisker plots.
 
-Here is a peek of what my dashboard looks like:
+Here is a peek at what my dashboard looks like:
 
 <img width="750" alt="A Tableau dashboard showing brand awareness metrics" src="https://imgur.com/wpncY5H.png">
 
