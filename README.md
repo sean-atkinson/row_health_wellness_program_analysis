@@ -97,23 +97,31 @@ You can find my SQL queries for the above and other insights [here](https://gith
 
 Here is an example of me using the QUALIFY clause:
 ```sql
--- identifying the most commonly ordered 2nd product for customers who have made more than one claim
--- cte to filter customers with more than one claim
+-- Identifying the most commonly ordered second product for customers who have made more than one claim
+-- CTE to filter customers with more than one claim
 WITH customers_multiple_orders AS (
-  SELECT *
-  FROM `psychic-raceway-393323.rowhealth.claims` claims
-  LEFT JOIN `psychic-raceway-393323.rowhealth.customers` customers
-   ON claims.customer_id = customers.customer_id 
-  QUALIFY ROW_NUMBER() OVER (PARTITION BY claims.customer_id ORDER BY claim_date) = 2
-  ORDER BY 1
+    SELECT 
+        *
+    FROM 
+        `rowhealth.claims` claims
+    LEFT JOIN 
+        `rowhealth.customers` customers ON claims.customer_id = customers.customer_id 
+    QUALIFY 
+        ROW_NUMBER() OVER (PARTITION BY claims.customer_id ORDER BY claim_date) = 2
+    ORDER BY 
+        1
 )
 
--- main query to calculate the number of claims for each product name 
-SELECT product_name, 
-  COUNT(DISTINCT claim_id) AS num_claims
-FROM customers_multiple_orders
-GROUP BY 1
-ORDER BY 2 DESC;
+-- Main query to calculate the number of claims for each product name 
+SELECT 
+    product_name, 
+    COUNT(DISTINCT claim_id) AS num_claims
+FROM 
+    customers_multiple_orders
+GROUP BY 
+    1
+ORDER BY 
+    2 DESC;
 ```
 
 And here is the query result:<br>
