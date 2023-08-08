@@ -88,7 +88,7 @@ Also, a presentation on the main findings of this project can be found [here](ht
 
 <b>The product most often bought as a second product for customers with more than one order</b>
 - Vitamin B+ Advanced Complex (3,822 times).
-- In terms of second purchases, Vitamin B+ Advanced Complex has outsold the #2 (Hair Growth Supplements) and #3(Detox + Debloat Vitamin) products on the list combined (3,822 vs 3,661).
+- In terms of second purchases, Vitamin B+ Advanced Complex has outsold the #2 (Hair Growth Supplements) and #3 (Detox + Debloat Vitamin) products on the list combined (3,822 vs 3,661).
 
 <b>Technical Analysis:</b><br>
 For this analysis, I used SQL and BigQuery. In regards to SQL, I used aggregation functions, window functions, joins, filtering, common table expressions (CTEs), and the QUALIFY clause to use row_number() to filter results.
