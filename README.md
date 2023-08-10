@@ -62,7 +62,7 @@ Also, a presentation on the main findings of this project can be found [here](ht
 
 <b>Top hair products for June 2023 </b>
 - Hair Vitamins Trio ($18K) and Hair Growth Supplements ($12K) had highest claim amounts.
-- All other hair products didn't break the $1K mark. This mimics the pattern for the year where Hair Vitamins Trio ($110k) and Hair Growth Supplements ($90k) are our top performers while Hair and Nail Wellbeing ($3.5K) and Hair Vitamins II ($459) lag behind by quite some distance.
+- All other hair products didn't surpass the $1K mark. This mimics the pattern for the year where Hair Vitamins Trio ($110k) and Hair Growth Supplements ($90k) are our top performers while Hair and Nail Wellbeing ($3.5K) and Hair Vitamins II ($459) lag behind by quite some distance.
 
 <b>Claims and claim amounts by state in 2023</b>
 - NJ has the most claims (3,964) and has claimed the highest amount ($479K).
