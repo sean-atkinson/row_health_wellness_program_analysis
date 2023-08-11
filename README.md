@@ -62,7 +62,7 @@ Also, a presentation on the main findings of this project can be found [here](ht
 
 <b>Top hair products for June 2023 </b>
 - Hair Vitamins Trio ($18K) and Hair Growth Supplements ($12K) had highest claim amounts.
-- All other hair products didn't break the $1k mark. This mimics the pattern for the year where Hair Vitamins Trio ($110k) and Hair Growth Supplements ($90k) are our top performers while Hair and Nail Wellbeing ($3.5K) and Hair Vitamins II ($459) lag behind by quite some distance.
+- All other hair products didn't surpass the $1K mark. This mimics the pattern for the year where Hair Vitamins Trio ($110k) and Hair Growth Supplements ($90k) are our top performers while Hair and Nail Wellbeing ($3.5K) and Hair Vitamins II ($459) lag behind by quite some distance.
 
 <b>Claims and claim amounts by state in 2023</b>
 - NJ has the most claims (3,964) and has claimed the highest amount ($479K).
@@ -88,7 +88,7 @@ Also, a presentation on the main findings of this project can be found [here](ht
 
 <b>The product most often bought as a second product for customers with more than one order</b>
 - Vitamin B+ Advanced Complex (3,822 times).
-- In terms of second purchases, Vitamin B+ Advanced Complex has outsold the #2 (Hair Growth Supplements) and #3(Detox + Debloat Vitamin) products on the list combined (3,822 vs 3,661).
+- In terms of second purchases, Vitamin B+ Advanced Complex has outsold the #2 (Hair Growth Supplements) and #3 (Detox + Debloat Vitamin) products on the list combined (3,822 vs 3,661).
 
 <b>Technical Analysis:</b><br>
 For this analysis, I used SQL and BigQuery. In regards to SQL, I used aggregation functions, window functions, joins, filtering, common table expressions (CTEs), and the QUALIFY clause to use row_number() to filter results.
@@ -208,7 +208,7 @@ A copy of my Tableau workbook can be found [here](https://github.com/sean-atkins
 # Part 4: Recommendations & Next Steps
 [(Back to table of contents)](#table_of_contents)<br><br>
 - <b>Prioritize High-Performing Campaigns and Platforms:</b> Given the strong performance of the Health For All campaign and email marketing efforts, consider increasing the budget for these initiatives by 15-20% (a percentage high enough to see results, but low enough in terms of spend, $3.3K on the high end, to be sufficiently cautious). Keep monitoring KPIs to ensure they campaigns continue to have strong ROI.
-- <b>Think About Leveraging Social Media for Customer Acquisition and Brand Awareness:</b> Social media has demonstrated strong performance in several metrics.  That being said, [we’re in tumultuous time when it come to social media marketing](https://econsultancy.com/social-media-advertising-2023-trends-predictions/?ssp=1&setlang=en-CA&safesearch=moderate). Perhaps caution is the better part of valour here. It might be best to experiment with increasing social media budget by 10% for the next quarter while closely monitoring customer acquisition and brand awareness metrics.
+- <b>Think About Leveraging Social Media for Customer Acquisition and Brand Awareness:</b> Social media has demonstrated strong performance in several metrics.  That being said, [we’re in tumultuous times when it come to social media marketing](https://econsultancy.com/social-media-advertising-2023-trends-predictions/?ssp=1&setlang=en-CA&safesearch=moderate). Perhaps caution is the better part of valour here. It might be best to experiment with increasing social media budget by 10% for the next quarter while closely monitoring customer acquisition and brand awareness metrics.
 - <b>Reevaluate Low-Performing Strategies:</b> TV has shown poor performance on every metric examined. Reduce its budget by 25% next quarter. Reallocate those resources to high-performing channels Email and Social Media. While it’s a significant decrease, it’s not the complete abandonment of this channel. We can re-evaluate at the end of the quarter.
 - <b>Expand Email Marketing for Engagement:</b> Experiment with A/B testing by sending half of the target group 15-20% more emails for 30 days (a modest increase but enough to produce a noticeable result if there is an impact). Compare customer acquisition and brand awareness metrics at the end of the test.
 - <b>Investigate the Family Coverage Plan Category:</b> It's perplexing that we’ve had over 1 million impressions without a single click. There’s a high possibility of an internal issue. Potential culprits include problems with event tracking, attribution, or data upload. Engaging our developers and data team for an in-depth examination of this anomaly is essential.
