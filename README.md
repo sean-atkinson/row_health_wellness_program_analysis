@@ -124,8 +124,19 @@ ORDER BY
     2 DESC;
 ```
 
-And here is the query result:<br>
-![SQL query result](https://imgur.com/Xr54XHI.png)
+And here are the top ten query results:
+| product_name                    |   num_claims |
+|:--------------------------------|-------------:|
+| Vitamin B+ Advanced Complex     |         3822 |
+| Hair Growth Supplements         |         1946 |
+| Detox + Debloat Vitamin         |         1715 |
+| Daily Greens Pouch              |          470 |
+| Probiotics Formulation          |          322 |
+| Essential Fatty Acid Supplement |          318 |
+| Well Bundle Vitamins            |           79 |
+| Oxytocin Supplement             |           62 |
+| SuperYou Natural Stress Relief  |           26 |
+| Nutrition Digestive Enzyme      |           24 |
 <br>
 
 <a id='section_3'></a>
