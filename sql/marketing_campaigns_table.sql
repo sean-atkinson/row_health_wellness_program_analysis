@@ -9,9 +9,11 @@ WITH signup_count AS (
         customers.campaign_id
 )
 
--- Main query to join campaigns with signup count and calculate additional metrics
--- Concatenating campaign details in a single column
--- Returning null for signup_rate, cost_per_signup, click_through_rate, and cost_per_click to avoid division by zero
+/*
+Main query to join campaigns with signup count and calculate additional metrics
+Concatenating campaign details in a single column
+Returning null for signup_rate, cost_per_signup, click_through_rate, and cost_per_click to avoid division by zero
+*/
 SELECT 
     campaigns.campaign_id,
     campaigns.campaign_category,
