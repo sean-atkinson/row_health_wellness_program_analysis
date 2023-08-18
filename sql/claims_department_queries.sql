@@ -1,5 +1,7 @@
--- Calculating the total number of distinct claims, total cost
--- and total covered amount from the claims table for June 2023
+/*
+Calculating the total number of distinct claims, total cost
+and total covered amount from the claims table for June 2023
+*/
 SELECT 
     COUNT(DISTINCT claims.claim_id) AS total_claims,
     ROUND(SUM(claims.claim_amount),2) AS total_cost,
@@ -9,8 +11,10 @@ FROM
 WHERE 
     DATE_TRUNC(claims.claim_date, MONTH) = '2023-06-01';
 
--- Calculating total claims and monthly average for each product
--- grouped by month and product name for the year 2020
+/*
+Calculating total claims and monthly average for each product 
+grouped by month and product name for the year 2020
+*/
 WITH monthly_claims AS (
     SELECT 
         claims.product_name AS product_name,
@@ -50,8 +54,10 @@ GROUP BY
 ORDER BY 
     1, 2;
 
--- Fetching the top 2 products related to 'hair' with the highest claimed amount for June 2023
--- Assuming "top" means highest-earning in terms of claim amounts
+/*
+Fetching the top 2 products related to 'hair' with the highest claimed amount for June 2023
+Assuming "top" means highest-earning in terms of claim amounts
+*/
 SELECT 
     claims.product_name AS product,
     ROUND(SUM(claim_amount),2) AS total_claimed_amt
@@ -67,8 +73,10 @@ ORDER BY
 LIMIT 
     2;
 
--- Retrieving the total number of claims made and total claimed amount by state for the year 2023
--- Sorted by total claims and total claimed amount in descending order
+/*
+Retrieving the total number of claims made and total claimed amount by state for the year 2023
+Sorted by total claims and total claimed amount in descending order
+*/
 SELECT 
     customers.state AS state,
     COUNT(DISTINCT claims.claim_id) AS total_claims_made,
@@ -84,8 +92,10 @@ GROUP BY
 ORDER BY 
     2 DESC, 3 DESC;
 
--- Calculating the avg yearly claims and average total claimed amount by state
--- Sorted by total claimed amount and total claims in descending order
+/*
+Calculating the avg yearly claims and average total claimed amount by state
+Sorted by total claimed amount and total claims in descending order
+*/
 WITH totals AS (
     SELECT 
         customers.state AS state,
@@ -110,8 +120,10 @@ GROUP BY
 ORDER BY 
     3 DESC, 2 DESC;
 
--- Grouping Christmas 2022 orders into categories 'Hair', 'Biotin', and 'Vitamin B'
--- It then sorts them by the covered amount in descending order
+/*
+Grouping Christmas 2022 orders into categories 'Hair', 'Biotin', and 'Vitamin B'
+It then sorts them by the covered amount in descending order
+*/
 WITH christmas_2022 AS (
     SELECT 
         CASE 
@@ -137,8 +149,7 @@ WHERE
 ORDER BY 
     2 DESC;
 
--- Counting the total unique customers who either signed up in 2022
--- or signed up in 2023 with a 'platinum' plan
+-- Counting the total unique customers who either signed up in 2022 or signed up in 2023 with a 'platinum' plan
 SELECT 
     COUNT(DISTINCT customers.customer_id) AS total
 FROM 
@@ -194,8 +205,7 @@ FROM
 JOIN 
     customer_list ON claims.customer_id = customer_list.customer_id;
 
--- Calculating the total covered claim amount for the top 10 customers 
--- who have made the most distinct claims
+-- Calculating the total covered claim amount for the top 10 customers who have made the most distinct claims
 WITH customer_list AS (
     SELECT 
         customers.customer_id,
@@ -218,8 +228,10 @@ FROM
 JOIN 
     customer_list ON claims.customer_id = customer_list.customer_id;
 
--- Calculating the overall average reimbursement percentage for claims on 'hair' products from New York customers 
--- or any 'supplement' products, excluding claims with a claim amount of zero
+/*
+Calculating the overall average reimbursement percentage for claims on 'hair' products from New York customers 
+or any 'supplement' products, excluding claims with a claim amount of zero
+*/
 SELECT 
     ROUND(AVG((claims.covered_amount)/NULLIF(claims.claim_amount, 0))*100,2) AS avg_reimbursement
 FROM 
@@ -231,8 +243,10 @@ WHERE
     OR (LOWER(claims.product_name) LIKE '%supplement%'))
     AND claims.claim_amount != 0;
 
--- Calculating the yearly average reimbursement percentage for claims on 'hair' products from New York customers 
--- or any 'supplement' products, excluding claims with a claim amount of zero
+/*
+Calculating the yearly average reimbursement percentage for claims on 'hair' products from New York customers 
+or any 'supplement' products, excluding claims with a claim amount of zero
+*/
 SELECT 
     extract (year from claims.claim_date) as year,
     round(avg((claims.covered_amount)/nullif(claims.claim_amount, 0))*100,2) as avg_reimbursement
@@ -247,8 +261,10 @@ WHERE
 GROUP BY 
     1;
 
--- Calculating the average number of days between claims for customers who have made more than one claim
--- CTE to filter customers with more than one claim
+/*
+Calculating the average number of days between claims for customers who have made more than one claim
+CTE to filter customers with more than one claim
+*/
 WITH more_than_one AS (
     SELECT 
         claims.customer_id
@@ -290,8 +306,10 @@ SELECT
 FROM 
     avg_days_per_customer;
 
--- Calculating the average number of days between claims for each customer who made more than one claim
--- CTE to filter customers with more than one claim
+/*
+Calculating the average number of days between claims for each customer who made more than one claim
+CTE to filter customers with more than one claim
+*/
 WITH more_than_one AS (
     SELECT 
         claims.customer_id
@@ -334,8 +352,10 @@ SELECT
 FROM 
     avg_days_per_customer;
 
--- Identifying the most commonly ordered second product for customers who have made more than one claim
--- CTE to filter customers with more than one claim
+/*
+Identifying the most commonly ordered second product for customers who have made more than one claim
+CTE to filter customers with more than one claim
+*/
 WITH customers_multiple_orders AS (
     SELECT 
         *
