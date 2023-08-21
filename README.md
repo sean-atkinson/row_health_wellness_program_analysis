@@ -43,7 +43,7 @@ The data I'll be using is spread out across three tables and consists of informa
 
 Here is the Entity Relationship Diagram for the data I'll be using:
 
-<img width="750" alt="image" src="https://imgur.com/PvUzVJm.png">
+<img width="750" alt="Row Health Entity Relationship Diagram" src="https://imgur.com/PvUzVJm.png">
 
 You can view the data in greater detail [here](https://github.com/sean-atkinson/row_health_wellness_program_analysis/tree/main/data).
 
