@@ -91,7 +91,7 @@ Also, a presentation on the main findings of this project can be found [here](ht
 - In terms of second purchases, Vitamin B+ Advanced Complex has outsold the #2 (Hair Growth Supplements) and #3 (Detox + Debloat Vitamin) products on the list combined (3,822 vs 3,661).
 
 <b>Technical Analysis:</b><br>
-For this analysis, I used SQL and BigQuery. In regards to SQL, I used aggregation functions, window functions, joins, filtering, common table expressions (CTEs), and the QUALIFY clause to use row_number() to filter results.
+For this analysis, I used SQL and BigQuery. In regards to SQL, I used aggregation functions, window functions, joins, filtering, a CASE expression, common table expressions (CTEs), and the QUALIFY clause to use row_number() to filter results.
 
 You can find my SQL queries for the above and other insights [here](https://github.com/sean-atkinson/row_health_wellness_program_analysis/blob/main/sql/claims_department_queries.sql).
 
